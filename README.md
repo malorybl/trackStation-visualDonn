@@ -63,16 +63,16 @@ Ces données sont utilisées par différentes entités :
 
 ### 👾 Les visualisations de données sur le rap qui ont déjà été faites
 
-**Dataviz sur le RAP FR : https://www.rapminerz.io/**
-**L'histoire du rap : https://www.forbes.com/sites/kevinmurnane/2016/03/08/brilliant-data-visualization-brings-the-history-of-hip-hop-to-life/**
-**Cartographie du rap français : https://pcen.fr/activites/cartorap-une-cartographie-du-rap-francais**
-**Rappeurs classés par leur richesse de vocabulaire : https://www.informationisbeautifulawards.com/showcase/539-rappers-sorted-by-size-of-vocabulary**
-**Les paroles dans le rap : https://jordanmagenta.wordpress.com/2016/02/15/data-visualization-of-lyrics-in-hip-hop/**
-**Top 5 des rappeurs de tous les temps : https://medium.com/svilenk/data-viz-top-5-rappers-of-all-time-397e30a8f577**
-**Les mots les plus utilisés dans le rap : https://pudding.cool/2017/09/hip-hop-words/**
-**Evaluation l'usage de la langue dans le rap français : https://actualitte.com/article/53845/numerique/un-outil-statistique-pour-evaluer-l-039-usage-de-la-langue-par-le-rap**
-**Mention des candidats à la présidentielle 2016 (USA) dans des musiques de rap : https://projects.fivethirtyeight.com/clinton-trump-hip-hop-lyrics/**
-**Les marques les plus mentionnées dans les albums de JAY-Z : https://www.vanityfair.com/hollywood/2013/10/jay-z-brands-song-chart?curator=MediaREDEF&epik=dj0yJnU9OGFud3hUSmtSS2ZSVXJJQmRiN3pOX20tdi01cnFPc2EmcD0wJm49U2tLNlZJQVRpaVJGM1k5d2xSYWlmdyZ0PUFBQUFBR2ZKdkN3**
+- **Dataviz sur le RAP FR :** https://www.rapminerz.io/
+- **L'histoire du rap :** https://www.forbes.com/sites/kevinmurnane/2016/03/08/brilliant-data-visualization-brings-the-history-of-hip-hop-to-life/
+- **Cartographie du rap français :** https://pcen.fr/activites/cartorap-une-cartographie-du-rap-francais
+- **Rappeurs classés par leur richesse de vocabulaire :** https://www.informationisbeautifulawards.com/showcase/539-rappers-sorted-by-size-of-vocabulary
+- **Les paroles dans le rap :** https://jordanmagenta.wordpress.com/2016/02/15/data-visualization-of-lyrics-in-hip-hop/
+- **Top 5 des rappeurs de tous les temps :** https://medium.com/svilenk/data-viz-top-5-rappers-of-all-time-397e30a8f577
+- **Les mots les plus utilisés dans le rap :** https://pudding.cool/2017/09/hip-hop-words/
+- **Evaluation l'usage de la langue dans le rap français :** https://actualitte.com/article/53845/numerique/un-outil-statistique-pour-evaluer-l-039-usage-de-la-langue-par-le-rap
+- **Mention des candidats à la présidentielle 2016 (USA) dans des musiques de rap :** https://projects.fivethirtyeight.com/clinton-trump-hip-hop-lyrics/
+- **Les marques les plus mentionnées dans les albums de JAY-Z :** https://www.vanityfair.com/hollywood/2013/10/jay-z-brands-song-chart?curator=MediaREDEF&epik=dj0yJnU9OGFud3hUSmtSS2ZSVXJJQmRiN3pOX20tdi01cnFPc2EmcD0wJm49U2tLNlZJQVRpaVJGM1k5d2xSYWlmdyZ0PUFBQUFBR2ZKdkN3
 
 ## 🚀 Conclusion
 
