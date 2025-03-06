@@ -1,4 +1,5 @@
-# Track Station 
+# Track Station
+
 # Analyse des données sur le rap et la culture hip-hop
 
 ## 📌 Contexte
@@ -24,23 +25,23 @@ Les attributs clés incluent :
 ### 🌐 Les sources de données sont les suivantes :
 
 - **Statistiques sur l'écoute du rap/hip-hop** : [HeadphonesAddict](https://headphonesaddict.com/rap-and-hip-hop-statistics/#How-many-people-listen-to-rap-and-hip-hop)
-    - nombre de personnes qui écoutent du rap/hip-hop
+  - nombre de personnes qui écoutent du rap/hip-hop
 - **Rappeurs les plus influents de 2024** : [Complex](https://www.complex.com/music/a/dimassanfiorenzo/best-rappers-right-now)
-    - Rappeurs les plus influents de 2024
+  - Rappeurs les plus influents de 2024
 - **Histoire du rap** : [RTS](https://www.rts.ch/info/culture/musiques/10648955-les-moments-cles-de-lhistoire-du-rap.html#chap05)
-    - origine, dates clés
+  - origine, dates clés
 - **Top rappeuses actuelles** : [Billboard](https://www.billboard.com/lists/female-rappers-best-hip-hop/)
-    - Top 10 des rappeuses les plus influentes
+  - Top 10 des rappeuses les plus influentes
 - **D'où viennent les rappeurs ? (Wikidata Query)** : [Medium](https://medium.com/@mark.reuter/a-hip-hop-world-map-7472a66da6a3)
-    - carte représentant l’origine des rappeurs
+  - carte représentant l’origine des rappeurs
 - **Images** : https://images.google.com/
-    - Photos / illustrations
+  - Photos / illustrations
 - **Paroles** : [genius](https://genius.com/)
-    - Paroles de musiques populaires
+  - Paroles de musiques populaires
 - **Actualité dans le monde du rap** : [gqmagazine](https://www.gqmagazine.fr/article/kendrick-lamar-drake-clash)
-    - Conflit entre Kendrick Lamar et Drake
-- **Kanye West, artiste problématique ?**  : [Tribune de Genève](https://www.tdg.ch/kanye-west-symptome-d-une-amerique-malade-du-fascisme-209342118876)
-    - Les différentes controverses concernant Kanye West
+  - Conflit entre Kendrick Lamar et Drake
+- **Kanye West, artiste problématique ?** : [Tribune de Genève](https://www.tdg.ch/kanye-west-symptome-d-une-amerique-malade-du-fascisme-209342118876)
+  - Les différentes controverses concernant Kanye West
 
 ## 🎯 Objectif du projet
 
@@ -60,9 +61,18 @@ Ces données sont utilisées par différentes entités :
 - **Chercheurs et journalistes** pour documenter l’histoire du rap.
 - **Communautés open data** (Wikidata) pour cartographier les artistes et leurs origines.
 
-### 👾 Ce qui existe déjà
+### 👾 Les visualisations de données sur le rap qui ont déjà été faites
 
 **Dataviz sur le RAP FR : https://www.rapminerz.io/**
+**L'histoire du rap : https://www.forbes.com/sites/kevinmurnane/2016/03/08/brilliant-data-visualization-brings-the-history-of-hip-hop-to-life/**
+**Cartographie du rap français : https://pcen.fr/activites/cartorap-une-cartographie-du-rap-francais**
+**Rappeurs classés par leur richesse de vocabulaire : https://www.informationisbeautifulawards.com/showcase/539-rappers-sorted-by-size-of-vocabulary**
+**Les paroles dans le rap : https://jordanmagenta.wordpress.com/2016/02/15/data-visualization-of-lyrics-in-hip-hop/**
+**Top 5 des rappeurs de tous les temps : https://medium.com/svilenk/data-viz-top-5-rappers-of-all-time-397e30a8f577**
+**Les mots les plus utilisés dans le rap : https://pudding.cool/2017/09/hip-hop-words/**
+**Evaluation l'usage de la langue dans le rap français : https://actualitte.com/article/53845/numerique/un-outil-statistique-pour-evaluer-l-039-usage-de-la-langue-par-le-rap**
+**Mention des candidats à la présidentielle 2016 (USA) dans des musiques de rap : https://projects.fivethirtyeight.com/clinton-trump-hip-hop-lyrics/**
+**Les marques les plus mentionnées dans les albums de JAY-Z : https://www.vanityfair.com/hollywood/2013/10/jay-z-brands-song-chart?curator=MediaREDEF&epik=dj0yJnU9OGFud3hUSmtSS2ZSVXJJQmRiN3pOX20tdi01cnFPc2EmcD0wJm49U2tLNlZJQVRpaVJGM1k5d2xSYWlmdyZ0PUFBQUFBR2ZKdkN3**
 
 ## 🚀 Conclusion
 
