@@ -67,3 +67,5 @@ Ces données sont utilisées par différentes entités :
 ## 🚀 Conclusion
 
 Nous espérons que ce site vous permettra de plonger au cœur de la culture hip-hop et d’en apprendre davantage sur son histoire, ses artistes et son influence à travers le monde. Que vous soyez un passionné de longue date ou simplement curieux de découvrir cet univers, notre objectif est de vous offrir un espace informatif et inspirant.
+
+![ce40fb83975c634f1ddae38362580c0e](https://github.com/user-attachments/assets/111e8740-7b35-438f-ae1f-d353c3ee646b)
