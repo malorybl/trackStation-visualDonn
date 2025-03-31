@@ -1,0 +1,83 @@
+/*SECTION GLOBAL INFLUENCE*/
+.section-global-influence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+    background-color: #0f0f0f;
+    color: white;
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  
+  .influence-left {
+    width: 40%;
+    padding-left: 2rem;
+  }
+  
+  .main-title {
+    font-family: "obviously-wide", sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 7rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+  
+  
+  
+  .subtitle {
+    font-family: "obviously-wide", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+   
+  }
+  
+  .influence-text {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    max-width: 80%;
+    text-align: justify;
+    font-family: "obviously-wide", sans-serif;
+  }
+  
+  .influence-right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .circle-percentage {
+    position: relative;
+    width: 100%;
+    max-width: 20rem;
+    right: 20%;
+    margin-bottom:10%;
+  }
+  
+  .circle-img {
+    width: 200%;
+    display: block;
+    margin-top: 5rem;
+    margin-left: -12rem;
+  
+    
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+    font-family: "obviously-wide", sans-serif;
+  }
+  

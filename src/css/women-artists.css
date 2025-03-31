@@ -1,0 +1,66 @@
+.section-women-rap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #0f0f0f;
+    overflow: hidden;
+  }
+  
+  .bg-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+    opacity: 0.03;
+    z-index: 0;
+  }
+  
+  .women-rap-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .women-rap-title-wrapper {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 30%;
+    z-index: 2;
+  }
+  
+  .women-rap-title {
+    font-size: 2.5rem;
+    font-family: "obviously-wide", sans-serif;
+    color: white;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .women-rap-circle {
+    position: absolute;
+    top: -4rem;
+    left: -3rem;
+    width: 110%;
+    transform: scale(1.2);
+    transform: rotate(15deg);
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .women-rap-number {
+    font-size: 12rem;
+    font-weight: bold;
+    color: white;
+    font-family: "obviously-wide", sans-serif;
+    z-index: 2;
+    text-align: center;
+  }
+  

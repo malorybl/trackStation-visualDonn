@@ -1,126 +1,185 @@
+
+@import './css/whatIsRap.css';
+@import './css/section-90s.css';
+@import './css/section-00s.css';
+@import './css/section-10s.css';
+@import './css/section-today.css';
+@import './css/global-influence.css';
+@import './css/origin-of-rappers.css';
+@import './css/billboard.css';
+@import './css/billboard-streamings.css';
+@import './css/male-artists.css';
+@import './css/women-artists.css';
+
+
 /* Général */
 body {
   background-color: #0f0f0f;
   color: white;
   font-family: "obviously-wide", sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  /*overflow-x: hidden; */
 }
 
-/* Conteneur principal (Fixé à l'écran) */
-.container-whatIsRap {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+
+/*KENDRICK LYRICS*/
+
+.kendrick-lyrics-container {
   height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  text-align: center;
-  transition: opacity 0.5s ease-in-out;
-}
-
-
-/* Effet de fade au scroll */
-.scrolled .container-whatIsRap {
-  opacity: 0.2;
-}
-
-.scrolled .parallax-whatIsRap {
-  opacity: 1;
-}
-
-/* Style du titre */
-.title {
-  font-size: 3.5rem;
-  font-family: "Lacquer", system-ui;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-top: 100px;
-  text-align: center;
-}
-
-/* Conteneur de la question */
-.question {
-  position: absolute;
-  left: 5%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* Texte "What is rap?" */
-.question h2 {
-  font-size: 3rem;
-  font-family: "obviously-wide", sans-serif;
-  text-transform: lowercase;
+  background-color: #0f0f0f;
   position: relative;
-  z-index: 2;
+  padding: 2rem;
 }
 
-/* Cercle PNG */
-.cercle {
-  position: absolute;
-  width: 550px;
-  left: -10%;
-  top: 50%;
-  transform: translateY(-50%);
+.kendrick-lyrics {
+  position: relative;
+  width: 80%;
+  max-width: 60rem;
+}
+
+.paper-lyrics-kendrick {
+  background: url("public/img/torn-paper1.png") no-repeat center/contain;
+  background-size: 100% 100%;
+  padding: 4rem 3rem 3rem 3rem;
+  text-align: center;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #111;
+  position: relative;
   z-index: 1;
 }
 
-/* Images */
-.images {
+.kendrick-lyrics-description {
+  margin: 0;
+}
+
+.kendrick-lyrics-signature {
+  margin-top: 0rem;
+  font-size: 1.2rem;
+ margin-left: 50%;
+  font-style: italic;
+}
+
+/* Scotch haut gauche */
+.scotch1-lyrics-kendrick {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
+  top: 5rem;
+  left: -7rem;
+  width: 19rem;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+
+/* Scotch haut droite */
+.scotch2-lyrics-kendrick {
+  position: absolute;
+  top: 1rem;
+  right: -4rem;
+  width: 15rem;
+  z-index: 2;
+  transform: rotate(30deg);
+}
+
+
+
+/*quote after male artists*/
+.section-quote-kendrick {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0f0f;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: center;
   align-items: center;
 }
 
-.images img {
-  max-width: 450px;
-  object-fit: cover;
-  filter: contrast(1.1);
-  border-radius: 5px;
-}
-
-/* Positionnement spécifique */
-.tupac-dechire {
-  position: absolute;
-  top: -100px;
-  right: 0;
-  transform: rotate(5deg);
-}
-
-.snoop-dechire {
-  position: absolute;
-  right: 300px;
-  top: -100px;
-  transform: rotate(-5deg);
-}
-
-.kendrick-dechire {
-  position: absolute;
-  bottom: 0;
-  right: 160px;
-  transform: rotate(3deg);
-}
-
-/* Texte qui apparaît au scroll */
-.parallax-whatIsRap {
+.quote-wrapper {
   position: relative;
-  width: 70%;
-  padding: 150vh 10%;
-  background: transparent;
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Nothing You Could Do", cursive;
-  color: white;
-  opacity: 100;
-  transition: opacity 1s ease-in-out;
+  width: 40%;
+  max-width: 700px;
 }
+
+.quote-paper {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+
+.quote-text {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  color: #000;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 1.8rem;
+  z-index: 2;
+  line-height: 1.6;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.quote-scotch-left {
+  position: absolute;
+  bottom: 0px;
+  right: 26rem;
+  width: 50%;
+  z-index: 3;
+  transform: rotate(40deg);
+}
+
+.quote-scotch-right {
+  position: absolute;
+  top: -10px;
+  left: 24rem;
+  width: 50%;
+  transform: rotate(10deg);  
+  z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,0 +1,62 @@
+/*SECTION ORIGIN OF RAPPERS*/
+.section-origin-map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3rem;
+    background-color: #0f0f0f;
+    color: white;
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  
+  .origin-left {
+    width: 45%;
+  }
+  
+  .origin-title {
+    font-size: 2.5rem;
+    font-family: "obviously-wide", sans-serif;
+    margin-bottom: 2rem;
+  }
+  
+  .origin-text {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    max-width: 90%;
+    text-align: justify;
+    font-family: "obviously-wide", sans-serif;
+  }
+  
+  .origin-right {
+    width: 50%;
+  }
+  
+  
+  
+  
+  .map-section {
+   /* background-color: #111;*/
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  #map {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    height: 600px;
+  }
+  .tooltip {
+    position: absolute;
+    padding: 0.5rem;
+    background: white;
+    color: rgb(240, 112, 112);
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    pointer-events: none;
+    opacity: 0;
+  }
+  

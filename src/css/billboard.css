@@ -1,0 +1,83 @@
+.section-billboard {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #0f0f0f;
+    overflow: hidden;
+  }
+  
+  /* Image de fond */
+  .bg-billboard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  /* Conteneur général */
+  .billboard-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Titre + cercle positionnés à gauche */
+  .billboard-title-wrapper {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 40%;
+    text-align: left;
+    z-index: 2;
+    max-width: 90%;
+  }
+  
+  /* Le titre en lui-même */
+  .billboard-title {
+    font-size: 3rem;
+    font-family: "obviously-wide", sans-serif;
+    color: white;
+    line-height: 1.3;
+    position: relative;
+    z-index: 2;
+    max-width: 90%;
+  }
+  
+  /* Cercle derrière le titre */
+  .billboard-circle {
+    position: absolute;
+    top: -1rem;
+    left: -1.5rem;
+    width: 85%;
+    transform: scale(1.2);
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  /* Conteneur des visages des rappeurs */
+  .billboard-faces {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: fix-end;
+    z-index: 2;
+  }
+  
+  /* Style des visages */
+  .face {
+    height: 16rem;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  
+  

@@ -1,4 +1,6 @@
 import "./style.css";
+import './map.js';
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const parallaxText = document.querySelector(".parallax-whatIsRap");
@@ -19,3 +21,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   observer.observe(parallaxText);
 });
+
+
