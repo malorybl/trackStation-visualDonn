@@ -1,0 +1,315 @@
+/*DRAKE VS KENDRICK ANNONCE*/
+
+.section-vs-battle {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0f0f;
+  overflow: hidden;
+}
+
+/* Explosions */
+.vs-boom {
+  position: absolute;
+  width: 20%;
+  max-width:18%;
+  z-index: 2;
+}
+.boom-left {
+  top: 55%;
+  left: 13%;
+  transform: rotate(-14deg);
+}
+.boom-right {
+  top: 9%;
+  right: 15%;
+  transform: rotate(14deg);
+}
+
+/* Papier déchiré */
+.vs-paper {
+  position: absolute;
+  width: 50%;
+  max-width: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Titre + cercle */
+.vs-title-wrapper {
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  z-index: 3;
+}
+.vs-title {
+  font-family: "obviously-wide", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  z-index: 3;
+}
+.vs-circle {
+  position: absolute;
+  top:-2rem;
+  left: -4rem;
+  width: 130%;
+  height: 140%;
+  pointer-events: none;
+  z-index: 1;
+  transform: rotate(5deg);
+}
+
+/* Visages + texte "VS." */
+.vs-faces-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.vs-rapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vs-face {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.vs-name {
+  font-family: "obviously-wide", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.vs-text {
+  font-family: "obviously-wide", sans-serif;
+  font-size: 3rem;
+  color: black;
+}
+
+
+/*DRAKE VS KENDRICK*/
+
+.section-vs-context {
+  background-color: #0f0f0f;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centre verticalement */
+  align-items: center;      /* Centre horizontalement */
+}
+
+
+.vs-context-title {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.vs-context-text {
+  font-family: "obviously-wide", sans-serif;
+  text-align: justify;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*not like us*/
+.section-not-like-us {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  overflow: hidden;
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.bg-not-like-us {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  z-index: 0;
+}
+
+.not-like-us-title {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 3rem;
+  color: white;
+  z-index: 2;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  position: relative;
+}
+
+.not-like-us-content {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  position: relative;
+  z-index: 2;
+  align-items: flex-start;
+  margin-left: 4rem;
+}
+
+.paper-quote-wrapper {
+  position: relative;
+  width: 40%;
+  margin-top: 3rem;
+}
+
+.torn-paper {
+  width: 100%;
+  height: auto;
+}
+
+.paper-quote {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  right: 10%;
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+  line-height: 3rem;
+}
+
+.paper-quote .quote-author {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.scotch-left {
+  position: absolute;
+  top: 80%;
+  left: -10%;
+  width: 40%;
+  transform: rotate(20deg);
+}
+
+.scotch-right {
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  width: 40%;
+  transform: rotate(10deg);
+}
+
+.not-like-us-explanation {
+  color: white;
+  font-family: "obviously-wide", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 30%;
+  text-align: justify;
+}
+
+
+/*KENDRICK AND HIS GRAMMYS*/
+.section-grammys {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  overflow: hidden;
+  padding: 4rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-grammys {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  z-index: 0;
+}
+
+.grammys-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 3rem;
+}
+
+.grammys-text {
+  max-width: 400px;
+  color: white;
+  font-family: "obviously-wide", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: justify;
+  
+}
+
+.grammys-visual {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kendrick-img {
+  max-height: 65vh;
+  z-index: 1;
+  
+}
+
+.grammy-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: -2rem;
+  z-index: 1;
+}
+
+.grammy-icon {
+  width: 20%;
+  height: auto;
+}
+
+
+
+
+
+

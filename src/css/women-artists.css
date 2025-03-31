@@ -1,3 +1,4 @@
+/*COMPTE A REBOURS*/
 .section-women-rap {
     position: relative;
     width: 100%;
@@ -13,11 +14,11 @@
     width: 100%;
     height: 200%;
     object-fit: cover;
-    opacity: 0.03;
+    opacity: 0.05;
     z-index: 0;
   }
   
-  .women-rap-content {
+  .women-rap-content-5 {
     position: relative;
     width: 100%;
     height: 100%;
@@ -54,13 +55,187 @@
     pointer-events: none;
     z-index: 1;
   }
-  
-  .women-rap-number {
-    font-size: 12rem;
+
+
+
+  .women-rap-number-5 {
+    font-size: 14rem;
     font-weight: bold;
     color: white;
     font-family: "obviously-wide", sans-serif;
     z-index: 2;
     text-align: center;
   }
+
+
+  /*Pour 4 3 2 1*/
+
+  .women-rap-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
+
+  .women-rap-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14rem;
+    font-weight: bold;
+    color: white;
+    font-family: "obviously-wide", sans-serif;
+    z-index: 2;
+    text-align: center;
+  }
+
+
+
+  /*RAPPEUSES*/
+
+  .section-women-rap-artist {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #0f0f0f;
+    overflow: hidden;
+  }
+  
+  .bg-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+  
+  .faded-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14rem;
+    font-weight: bold;
+    color: white;
+    opacity: 0.2;
+    font-family: "obviously-wide", sans-serif;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .women-rap-artist-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+  }
+  
+  .text-block {
+    width: 45%;
+    color: white;
+  }
+  
+  .artist-name {
+    font-family: "obviously-wide", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .artist-description {
+    font-family: "obviously-wide", sans-serif;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .image-block {
+    position: relative;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ice-spice-img {
+    max-height: 70vh;
+    object-fit: contain;
+    z-index: 2;
+  }
+  
+  .fleche-ice {
+    width: 38%;;
+    margin-top: -6rem;
+   margin-right: 42rem;
+    transform: rotate(30deg);
+  }
+
+
+
+  .doja-cat-img {
+    max-height: 70vh;
+   margin-top: -8rem;
+    z-index: 2;
+  }
+
+  .fleche-doja {
+    width: 50%;;
+    margin-top: -34rem;
+   margin-right: 42rem;
+    transform: rotate(200deg);
+  }
+
+
+  .megan-img {
+    max-height: 70vh;
+   margin-top: -8rem;
+   margin-right: 16rem;
+    z-index: 2;
+  }
+
+  .fleche-megan {
+    width: 40%;;
+    margin-top: -6rem;
+   margin-right: 42rem;
+    transform: rotate(20deg);
+  }
+
+  .sexyy-red-img {
+    max-height: 70vh;
+   margin-top: -12rem;
+   margin-right: 22%;
+    z-index: 2;
+  }
+
+  .fleche-sexyy-red {
+    width: 50%;;
+    margin-top: -34rem;
+   margin-right: 42rem;
+    transform: rotate(190deg);
+  }
+
+
+  .nicki-minaj-img {
+    max-height: 70vh;
+   margin-top: -12rem;
+   margin-right: 22%;
+    z-index: 2;
+  }
+
+  .fleche-nicki-minaj {
+    width: 45%;
+    margin-top: -34rem;
+   margin-right: 42rem;
+    transform: rotate(155deg) scaleX(-1);
+  }

@@ -1,5 +1,6 @@
 import "./style.css";
 import './map.js';
+import './game.js';
 
 
 document.addEventListener("DOMContentLoaded", () => {
