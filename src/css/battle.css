@@ -173,16 +173,17 @@
 .not-like-us-content {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 1.5rem; /* réduit l'espace entre les colonnes */
   position: relative;
   z-index: 2;
   align-items: flex-start;
-  margin-left: 4rem;
+  margin-left: 6vw; /* réduit légèrement le décalage gauche */
 }
+
 
 .paper-quote-wrapper {
   position: relative;
-  width: 40%;
+  width: 45%;
   margin-top: 3rem;
 }
 
@@ -233,6 +234,8 @@
   line-height: 1.6;
   max-width: 30%;
   text-align: justify;
+   margin-left: 4rem;
+   margin-top: 10%;
 }
 
 
@@ -289,24 +292,64 @@
 }
 
 .kendrick-img {
-  max-height: 65vh;
+  max-height: 75vh;
+  width: 140%;
   z-index: 1;
+  margin-left: -20rem;
   
 }
 
 .grammy-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+  position: relative;
+  width: 300px;
+  height: 180px;
   margin-top: -2rem;
   z-index: 1;
 }
 
 .grammy-icon {
-  width: 20%;
+  position: absolute;
+  width: 70px;
   height: auto;
 }
+
+/* Positionnement des 5 trophées */
+.grammy-icon:nth-child(1) {
+  top: -20%;
+  left: -80%;
+  transform: scale(1.8) ;
+  z-index: 1;
+}
+
+.grammy-icon:nth-child(2) {
+  top: -20%;
+  left: 55%;
+  transform: scale(1.8);
+  z-index: 1;
+}
+
+.grammy-icon:nth-child(3) {
+  top: -20%;
+  left: -55%;
+  transform: scale(2.5);
+  z-index: 2;
+}
+
+.grammy-icon:nth-child(4) {
+  top: -20%;
+  left: 25%;
+  transform: scale(2.5) ;
+  z-index: 2;
+}
+
+.grammy-icon:nth-child(5) {
+  top: -20%;
+  left: -5%;
+  transform: translateX(-50%) scale(3.4);
+  z-index: 3;
+}
+
+
 
 
 

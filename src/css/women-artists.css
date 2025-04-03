@@ -181,6 +181,33 @@
     transform: rotate(30deg);
   }
 
+  .stats {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .spotify-icon {
+    width: 75%;
+    height: auto;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+  }
+  
+  .stream-number {
+    font-size: 2rem;
+    font-family: "obviously-wide", sans-serif;
+    color: white;
+    margin-top: 0.8rem;
+  }
+
 
 
   .doja-cat-img {
@@ -239,3 +266,4 @@
    margin-right: 42rem;
     transform: rotate(155deg) scaleX(-1);
   }
+

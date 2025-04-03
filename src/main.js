@@ -2,6 +2,10 @@ import "./style.css";
 import './map.js';
 import './game.js';
 
+// Forcer le scroll en haut de la page au chargement
+window.addEventListener('load', () => {
+  window.scrollTo(0, 0);
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   const parallaxText = document.querySelector(".parallax-whatIsRap");
@@ -20,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { threshold: 0.3 } // Active la transition quand 30% du texte est visible
   );
 
-  observer.observe(parallaxText);
+  if (parallaxText) {
+    observer.observe(parallaxText);
+  }
 });
-
-

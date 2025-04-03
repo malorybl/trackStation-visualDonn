@@ -102,7 +102,7 @@
   }
   
   .paper-kanye {
-    width: 130%;
+    width: 140%;
 
     display: block;
     position: relative;
@@ -112,20 +112,20 @@
   .text-on-paper {
     position: absolute;
     top: 12%;
-    left: 22%;
+    left: 25%;
     right: 45%;
     font-family: "obviously-wide", sans-serif;
     font-size: 0.85rem;
     color: black;
     z-index: 2;
     text-align: justify;
-    width: 52%;
+    width: 55%;
   }
   
   .kanye-photo {
     position: absolute;
     top: 0%;
-    right: -30%;
+    right: -40%;
     width: 50%;
     transform: rotate(15deg);
     z-index: 3;
@@ -147,7 +147,7 @@
   
   .scotch-kanye-right {
     top: -2rem;
-    right: -16rem;
+    right: -20rem;
     transform: rotate(20deg);
   }
 
@@ -187,7 +187,7 @@
     color: black;
     font-family: "Nothing You Could Do", cursive;
     font-size: 2rem;
-    line-height: 1.6;
+    line-height: 1.5;
     text-align: center;
   }
   

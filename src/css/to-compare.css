@@ -1,0 +1,108 @@
+.section-compare {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 6rem 3rem;
+    background-color: #0f0f0f;
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    
+  }
+  
+  .compare-left {
+    display: flex;
+    gap: 10rem;
+    align-items: flex-end;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+  .compare-face {
+    width: 10rem;
+    position: absolute;
+    top: -10rem; /* monte l'image au-dessus de la barre */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+  .face-kendrick {
+    width: 13rem;
+  }
+  
+  .face-nicki {
+    width: 11rem;
+  }
+  
+  .bar-value {
+    font-size: 1.5rem;
+    font-family: "obviously-wide", sans-serif;
+    margin-bottom: 0.3rem;
+  }
+  
+  .bar {
+    width: 190%;
+    background-color: #ccc;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .bar-male {
+    height: 28rem;
+  }
+  
+  .bar-female {
+    height: 12rem;
+  }
+  
+  .compare-right {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    padding-left: 6rem;
+    padding-right: 4rem;
+    align-self: flex-start;
+    padding-top: 1rem; /* ou ajuste selon le décalage souhaité */   
+    margin-top: -3rem;
+  }
+  
+  .compare-title {
+    font-size: 2.8rem;
+    font-family: "obviously-wide", sans-serif;
+    margin-bottom: 0.6rem;
+  }
+  
+  .compare-underline {
+    width: 20rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .compare-subtitle {
+    display: flex;
+    align-items: center;
+    font-family: "obviously-wide", sans-serif;
+    font-size: 1.5rem;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .spotify-logo {
+    height: 4rem;
+    margin-left: 2rem;
+  }
+  
+  .compare-text {
+    font-size: 1rem;
+    font-family: "obviously-wide", sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  

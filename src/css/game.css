@@ -1,132 +1,157 @@
+/* Conteneur général */
 .game-container {
-    text-align: center;
-    position: relative;
-    max-width: 500px;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 5rem;
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem; /* 👈 Ajoute ceci */
+}
+
+/* Titre du jeu */
+.game-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-family: "obviously-wide", sans-serif;
+  color: white;
+}
+
+/* Timer */
+.timer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-family: "obviously-wide", sans-serif;
+}
+
+/* Image du rappeur */
+.image-container {
+  height: 350px;
+  margin-bottom: 1rem;
+}
+
+#rapper-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Champ de réponse */
+#answer-input {
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  border: none;
+  width: 60%;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Bouton passer */
+#skip-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+}
+
+/* Score + message de fin côte à côte */
+.bottom-feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+  padding: 0 2rem;
+}
+
+/* Score */
+.score-container {
+  text-align: left;
+  font-size: 1rem;
+  font-family: "obviously-wide", sans-serif;
+  color: white;
+}
+
+#score {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Message final */
+.final-message-wrapper {
+  position: relative;
+  max-width: 380px;
+  min-width: 250px;
+  text-align: center;
+}
+
+.final-message {
+  font-size: 1.2rem;
+  padding: 1rem;
+  position: relative;
+  z-index: 2;
+  font-family: "obviously-wide", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+/* Cercle autour du message */
+.message-circle {
+  position: absolute;
+  width: 100%;
+  top: -20px;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+  display: none;
+}
+
+/* Affiche le cercle si un message existe */
+.final-message:not(:empty) + .message-circle {
+  display: block;
+}
+
+/* Bouton rejouer */
+#play-again {
+  margin-top: 3rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-family: "obviously-wide", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 50%) {
+  .bottom-feedback {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
-  
-  .game-title {
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    font-family: "obviously-wide", sans-serif;
-  }
-  
-  .image-container {
-    height: 300px;
-    margin-bottom: 1rem;
-  }
-  
-  #rapper-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  
-  #answer-input {
-    padding: 0.6rem 1rem;
-    border-radius: 20px;
-    border: none;
-    width: 60%;
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    text-align: center;
-    margin-bottom: 6rem;
-  }
-  
-  #skip-btn {
-    margin-top: 1rem;
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 0.4rem 1.2rem;
-    border-radius: 2rem;
-    cursor: pointer;
-    font-size: 0.9rem;
-  }
-  
-  .score-container {
-    position: absolute;
-    left: 2rem;
-    bottom: 2rem;
-    text-align: center;
-    font-size: 1rem;
-    font-family: "obviously-wide", sans-serif;
-  }
-  
-  #score {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-top: 0.5rem;
-  }
-  
+
   .final-message-wrapper {
-    position: absolute;
-    right: 2rem;
-    bottom: 1.5rem;
-    width: 60%;
-  }
-  
-  .message-circle {
-    position: absolute;
     width: 100%;
-    top: -20px;
-    right: 0;
-    pointer-events: none;
-  }
-  
-  .final-message {
-    font-size: 1.5rem;
-    padding: 1rem;
-    position: relative;
-    z-index: 1;
-    font-family: "obviously-wide", sans-serif;
-    text-align: center;
-  }
-  
-  #play-again {
-    margin-top: 3rem;
-    padding: 0.6rem 1.2rem;
-    border: none;
-    border-radius: 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    font-family: "obviously-wide", sans-serif;
-    margin-bottom: -1rem;
-  }
-  
-  .hidden {
-    display: none;
   }
 
-  .timer {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 1.5rem;
-    font-family: "obviously-wide", sans-serif;
+  #answer-input {
+    width: 80%;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

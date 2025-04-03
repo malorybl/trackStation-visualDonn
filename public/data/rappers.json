@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Kendrick Lamar",
+    "city": "Compton, CA",
+    "latitude": 33.8958,
+    "longitude": -118.2201
+  },
+  {
+    "name": "Jay-Z",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  },
+  {
+    "name": "Drake",
+    "city": "Toronto, ON",
+    "latitude": 43.65107,
+    "longitude": -79.347015
+  },
+  {
+    "name": "Nicki Minaj",
+    "city": "Queens, NY",
+    "latitude": 40.7282,
+    "longitude": -73.7949
+  },
+  {
+    "name": "J. Cole",
+    "city": "Fayetteville, NC",
+    "latitude": 35.0527,
+    "longitude": -78.8784
+  },
+  {
+    "name": "Eminem",
+    "city": "Detroit, MI",
+    "latitude": 42.3314,
+    "longitude": -83.0458
+  },
+  {
+    "name": "Kanye West",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "Tyler, The Creator",
+    "city": "Ladera Heights, CA",
+    "latitude": 33.9858,
+    "longitude": -118.3755
+  },
+  {
+    "name": "Ice Spice",
+    "city": "Bronx, NY",
+    "latitude": 40.8448,
+    "longitude": -73.8648
+  },
+  {
+    "name": "Future",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
+  },
+  {
+    "name": "Travis Scott",
+    "city": "Houston, TX",
+    "latitude": 29.7604,
+    "longitude": -95.3698
+  },
+  {
+    "name": "Cardi B",
+    "city": "Bronx, NY",
+    "latitude": 40.8448,
+    "longitude": -73.8648
+  },
+  {
+    "name": "Lil Wayne",
+    "city": "New Orleans, LA",
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  },
+  {
+    "name": "Megan Thee Stallion",
+    "city": "Houston, TX",
+    "latitude": 29.7604,
+    "longitude": -95.3698
+  },
+  {
+    "name": "Doja Cat",
+    "city": "Los Angeles, CA",
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  {
+    "name": "Nas",
+    "city": "Queens, NY",
+    "latitude": 40.7282,
+    "longitude": -73.7949
+  },
+  {
+    "name": "A$AP Rocky",
+    "city": "Harlem, NY",
+    "latitude": 40.8116,
+    "longitude": -73.9465
+  },
+  {
+    "name": "Snoop Dogg",
+    "city": "Long Beach, CA",
+    "latitude": 33.7701,
+    "longitude": -118.1937
+  },
+  {
+    "name": "50 Cent",
+    "city": "Queens, NY",
+    "latitude": 40.7282,
+    "longitude": -73.7949
+  },
+  {
+    "name": "Saweetie",
+    "city": "Hayward, CA",
+    "latitude": 37.6688,
+    "longitude": -122.0808
+  },
+  {
+    "name": "G-Eazy",
+    "city": "Oakland, CA",
+    "latitude": 37.8044,
+    "longitude": -122.2711
+  },
+  {
+    "name": "Joey Bada$$",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  },
+  {
+    "name": "Mac Miller",
+    "city": "Pittsburgh, PA",
+    "latitude": 40.4406,
+    "longitude": -79.9959
+  },
+  {
+    "name": "Wiz Khalifa",
+    "city": "Pittsburgh, PA",
+    "latitude": 40.4406,
+    "longitude": -79.9959
+  },
+  {
+    "name": "Tyga",
+    "city": "Compton, CA",
+    "latitude": 33.8958,
+    "longitude": -118.2201
+  },
+  {
+    "name": "Latto",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
+  },
+  {
+    "name": "NLE Choppa",
+    "city": "Memphis, TN",
+    "latitude": 35.1495,
+    "longitude": -90.0490
+  },
+  {
+    "name": "Lil Baby",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
+  },
+  {
+    "name": "Polo G",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "Lizzo",
+    "city": "Houston, TX",
+    "latitude": 29.7604,
+    "longitude": -95.3698
+  },
+  {
+    "name": "Big Sean",
+    "city": "Detroit, MI",
+    "latitude": 42.3314,
+    "longitude": -83.0458
+  },
+  {
+    "name": "Playboi Carti",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
+  },
+  {
+    "name": "Tierra Whack",
+    "city": "Philadelphia, PA",
+    "latitude": 39.9526,
+    "longitude": -75.1652
+  },
+  {
+    "name": "Roddy Ricch",
+    "city": "Compton, CA",
+    "latitude": 33.8958,
+    "longitude": -118.2201
+  },
+  {
+    "name": "Masego",
+    "city": "Newport News, VA",
+    "latitude": 36.9788,
+    "longitude": -76.4280
+  },
+  {
+    "name": "Chika",
+    "city": "Montgomery, AL",
+    "latitude": 32.3668,
+    "longitude": -86.3000
+  },
+  {
+    "name": "Busta Rhymes",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  },
+  {
+    "name": "Lil Nas X",
+    "city": "Lithia Springs, GA",
+    "latitude": 33.7943,
+    "longitude": -84.6600
+  },
+  {
+    "name": "Lil Durk",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "Chance The Rapper",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "Queen Latifah",
+    "city": "Newark, NJ",
+    "latitude": 40.7357,
+    "longitude": -74.1724
+  },
+  {
+    "name": "Missy Elliott",
+    "city": "Portsmouth, VA",
+    "latitude": 36.8354,
+    "longitude": -76.2983
+  },
+  {
+    "name": "Tory Lanez",
+    "city": "Brampton, ON",
+    "latitude": 43.7315,
+    "longitude": -79.7624
+  },
+  {
+    "name": "Jean Grae",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  },
+  {
+    "name": "Remy Ma",
+    "city": "Bronx, NY",
+    "latitude": 40.8448,
+    "longitude": -73.8648
+  },
+  {
+    "name": "Azealia Banks",
+    "city": "Harlem, NY",
+    "latitude": 40.8116,
+    "longitude": -73.9465
+  },
+  {
+    "name": "Joey Purp",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "Lil Yachty",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
+  },
+  {
+    "name": "Logic",
+    "city": "Gaithersburg, MD",
+    "latitude": 39.1434,
+    "longitude": -77.2014
+  },
+  {
+    "name": "Pop Smoke",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  }
+]

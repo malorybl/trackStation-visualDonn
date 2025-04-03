@@ -1,54 +1,44 @@
-// Initialiser la carte centrée sur l'Amérique du Nord
-let map = L.map('map', {
+// Initialisation de la carte
+const map = L.map("map", {
     minZoom: 3,
     maxZoom: 7,
-    center: [55, -95], // Ajusté pour voir USA & Canada
+    center: [39.8283, -98.5795], // Centre géographique des USA
     zoom: 4
-});
+  });
+  
+  // Fond de carte en noir et blanc
 
-// Ajouter une couche de carte OpenStreetMap
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-}).addTo(map);
-
-// Stockage des rappeurs par ville
-let rappersByCity = {};
-
-// Récupérer les données de l'API et afficher les points sur la carte
-fetch("https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/rapworld/records?where=country%20in%20(%22USA%22,%20%22Canada%22)&select=name,city,geo_point_2d")
-  .then(response => response.json())
-  .then(data => {
-      data.records.forEach(rapper => {
-          let { name, city, geo_point_2d } = rapper.fields; // Utilisation de `fields` pour accéder aux données
-          if (geo_point_2d && Array.isArray(geo_point_2d)) {
-              let [lat, lon] = geo_point_2d; // Extraire latitude et longitude
-
-              // Grouper les rappeurs par ville
-              let coords = `${lat},${lon}`;
-              if (!rappersByCity[coords]) {
-                  rappersByCity[coords] = { city: city || "Ville inconnue", names: [] };
-              }
-              rappersByCity[coords].names.push(name || "Nom inconnu");
+  L.tileLayer("https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; Stadia Maps, OpenMapTiles, OpenStreetMap contributors'
+  }).addTo(map);
+  
+  // Charger le fichier JSON des rappeurs
+  fetch("/data/rappers.json")
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(rapper => {
+        const { name, city, latitude, longitude } = rapper;
+  
+        // Créer un marqueur cercle
+        const marker = L.circleMarker([latitude, longitude], {
+          radius: 8,
+          color: "purple",
+          fillColor: "purle",
+          fillOpacity: 0.8
+        }).addTo(map);
+  
+        // Ajouter le tooltip (affiché au survol)
+        marker.bindTooltip(
+          `<strong>${name}</strong><br>${city}`,
+          {
+            permanent: false,
+            direction: "top",
+            offset: [0, -10]
           }
+        );
       });
-
-      // Ajouter les marqueurs sur la carte
-      Object.keys(rappersByCity).forEach(coords => {
-          let [lat, lon] = coords.split(',').map(Number);
-          let rappers = rappersByCity[coords];
-
-          let marker = L.circleMarker([lat, lon], {
-              radius: 6,
-              color: "red",
-              fillColor: "#f03",
-              fillOpacity: 0.8
-          }).addTo(map);
-
-          // Ajouter une info-bulle au survol de la souris
-          marker.bindTooltip(
-              `<b>${rappers.city}</b><br>${rappers.names.join(", ")}`,
-              { permanent: false, direction: "top" }
-          );
-      });
-  })
-  .catch(error => console.error("Erreur lors de la récupération des données :", error));
+    })
+    .catch(error => {
+      console.error("Erreur lors du chargement des données des rappeurs :", error);
+    });
+  

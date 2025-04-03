@@ -88,15 +88,15 @@
   .text-10s {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
     
     font-family: "obviously-wide", sans-serif;
     font-size: 1rem;
     color: white;
     
-    width: 80%;          /* ← augmente la largeur réelle du texte */
-    max-width: 90%;      /* ← optionnel, si tu veux une limite souple */
+    width: 97%;          /* ← augmente la largeur réelle du texte */
+    max-width: 100%;      /* ← optionnel, si tu veux une limite souple */
     line-height: 1.6;
     
     text-align: justify;
@@ -146,16 +146,18 @@
     display: inline-block;
     max-width: 900px;
     width: 100%;
-    right: 30%;
+    right: 40%;
     margin-top: -3rem; /* ← fait descendre tout le bloc */
   }
   
   
   .cercle-10s {
-    width: 130%;                 /* plus large (prend tout le conteneur) */  /* incliné */
+    width: 130%;
+                   /* plus large (prend tout le conteneur) */  /* incliné */
     
     transform: translateY(2rem) scaleY(0.7);  /* plus bas et plus plat */
     display: block;
+    transform: rotate(10deg); /* rotation de 0 degré */
     
   }
   
