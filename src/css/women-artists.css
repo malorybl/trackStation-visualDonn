@@ -192,6 +192,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 15rem;
   }
   
   .spotify-icon {
@@ -266,4 +267,18 @@
    margin-right: 42rem;
     transform: rotate(155deg) scaleX(-1);
   }
+
+
+    .billboard-explication{
+      position: relative;
+      width: 70%;
+      padding: 70vh 14%;
+      background: transparent;
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Nothing You Could Do", cursive;
+      color: white;
+  
+  
+    }
 
