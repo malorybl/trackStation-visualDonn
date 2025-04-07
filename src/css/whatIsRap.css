@@ -84,6 +84,33 @@
     transform: rotate(3deg);
   }
 
+    /* Sections plein écran pour le scroll */
+    .section {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+  
+    /* Animation de fade/slide-in */
+    .section .title,
+    .section .title-whatIsRap,
+    .section .images-whatIsRap {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 1s ease;
+    }
+  
+    /* Quand la section est visible, on l'anime */
+    .section.active .title,
+    .section.active .title-whatIsRap,
+    .section.active .images-whatIsRap {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
 
   .parallax-whatIsRap{
     position: relative;
