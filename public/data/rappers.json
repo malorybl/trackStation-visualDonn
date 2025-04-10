@@ -298,5 +298,125 @@
     "city": "Brooklyn, NY",
     "latitude": 40.6782,
     "longitude": -73.9442
+  },
+  {
+    "name": "Bun B",
+    "city": "Port Arthur, TX",
+    "latitude": 29.8849,
+    "longitude": -93.9399
+  },
+  {
+    "name": "Scarface",
+    "city": "Houston, TX",
+    "latitude": 29.7604,
+    "longitude": -95.3698
+  },
+  {
+    "name": "Ludacris",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
+  },
+  {
+    "name": "Rick Ross",
+    "city": "Miami, FL",
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  },
+  {
+    "name": "Flo Rida",
+    "city": "Carol City, FL",
+    "latitude": 25.9487,
+    "longitude": -80.2456
+  },
+  {
+    "name": "YBN Cordae",
+    "city": "Raleigh, NC",
+    "latitude": 35.7796,
+    "longitude": -78.6382
+  },
+  {
+    "name": "Meek Mill",
+    "city": "Philadelphia, PA",
+    "latitude": 39.9526,
+    "longitude": -75.1652
+  },
+  {
+    "name": "Rapsody",
+    "city": "Snow Hill, NC",
+    "latitude": 35.4513,
+    "longitude": -77.6816
+  },
+  {
+    "name": "Young M.A",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  },
+  {
+    "name": "King Von",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "G Herbo",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "Chief Keef",
+    "city": "Chicago, IL",
+    "latitude": 41.8781,
+    "longitude": -87.6298
+  },
+  {
+    "name": "Bobby Shmurda",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  },
+  {
+    "name": "Cordae",
+    "city": "Suitland, MD",
+    "latitude": 38.8487,
+    "longitude": -76.9239
+  },
+  {
+    "name": "Desiigner",
+    "city": "Brooklyn, NY",
+    "latitude": 40.6782,
+    "longitude": -73.9442
+  },
+  {
+    "name": "Blueface",
+    "city": "Los Angeles, CA",
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  {
+    "name": "Denzel Curry",
+    "city": "Carol City, FL",
+    "latitude": 25.9487,
+    "longitude": -80.2456
+  },
+  {
+    "name": "A Boogie Wit Da Hoodie",
+    "city": "Bronx, NY",
+    "latitude": 40.8448,
+    "longitude": -73.8648
+  },
+  {
+    "name": "JID",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
+  },
+  {
+    "name": "EARTHGANG",
+    "city": "Atlanta, GA",
+    "latitude": 33.7490,
+    "longitude": -84.3880
   }
 ]

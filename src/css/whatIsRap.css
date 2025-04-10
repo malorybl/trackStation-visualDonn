@@ -32,6 +32,8 @@
     font-family: "obviously-wide", sans-serif;
     position: relative;
     left:-370px;
+      transform: translateX(-100px);
+        /* Position initiale hors de l'écran */
   }
   
   /* Cercle PNG */
@@ -94,22 +96,9 @@
       position: relative;
     }
   
-    /* Animation de fade/slide-in */
-    .section .title,
-    .section .title-whatIsRap,
-    .section .images-whatIsRap {
-      opacity: 0;
-      transform: translateY(50px);
-      transition: all 1s ease;
-    }
+   
   
-    /* Quand la section est visible, on l'anime */
-    .section.active .title,
-    .section.active .title-whatIsRap,
-    .section.active .images-whatIsRap {
-      opacity: 1;
-      transform: translateY(0);
-    }
+   
 
 
   .parallax-whatIsRap{

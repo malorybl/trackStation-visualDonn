@@ -1,34 +1,59 @@
 import "./style.css";
 import './map.js';
 import './game.js';
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
-// Scroll vers le haut au chargement
 window.addEventListener('load', () => {
   window.scrollTo(0, 0);
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const title = document.querySelector(".title");
-  const titleWhatIsRap = document.querySelector(".title-whatIsRap");
-  const bottomContent = document.querySelector(".bottom-content");
+gsap.registerPlugin(ScrollTrigger);
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          // Une fois visible, on peut arrêter de l'observer pour améliorer les perfs
-          observer.unobserve(entry.target);
-        }
-      });
+// Titre TRACK STATION : apparition + scale au scroll
+gsap.fromTo(".title", 
+  {
+    opacity: 0,
+    y: 100,
+    scale: 5,
+  }, 
+  {
+    scrollTrigger: {
+      trigger: ".container-whatIsRap",
+      start: "top 20%",
+      end: "top 50%",
+      scrub: true,
     },
-    {
-      threshold: 0.3, // L’élément doit être à 30% visible pour déclencher l’apparition
-    }
-  );
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    ease: "power2.out",
+  }
+);
 
-  // Observation des différents blocs
-  if (title) observer.observe(title);
-  if (titleWhatIsRap) observer.observe(titleWhatIsRap);
-  if (bottomContent) observer.observe(bottomContent);
+// What is rap? avec le cercle
+gsap.from(".title-whatIsRap", {
+  scrollTrigger: {
+    trigger: ".title-whatIsRap",
+    start: "top 80%",
+    end: "top 50%",
+    scrub: true,
+  },
+  opacity: 0,
+  x: -100,
+  ease: "power2.out",
+});
+
+// Images
+gsap.from(".images-whatIsRap img", {
+  scrollTrigger: {
+    trigger: ".images-whatIsRap",
+    start: "top bottom",
+    end: "top center",
+    scrub: true,
+  },
+  opacity: 0,
+  y: 100,
+  stagger: 0.2,
+  ease: "power2.out",
 });

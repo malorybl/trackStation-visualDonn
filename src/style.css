@@ -23,7 +23,7 @@ body {
   color: white;
   font-family: "obviously-wide", sans-serif;
   margin: 0;
-  /*overflow-x: hidden; */
+  overflow-x: hidden; 
 }
 
 html, body {
