@@ -1,59 +1,85 @@
 import "./style.css";
 import './map.js';
 import './game.js';
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-window.addEventListener('load', () => {
-  window.scrollTo(0, 0);
-});
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Titre TRACK STATION : apparition + scale au scroll
-gsap.fromTo(".title", 
+
+gsap.to(".title", {
+  scrollTrigger: {
+    trigger: ".title",
+    start: "top top",
+    end: "+=700",
+    scrub: true,
+    pin: true
+  },
+  scale: 0.5,
+  ease: "power1.inOut",
+  
+});
+
+
+
+
+gsap.fromTo(".images-whatIsRap"
+  , 
   {
-    opacity: 0,
-    y: 100,
-    scale: 5,
-  }, 
+    opacity: 1,
+    x: "50vw"
+  },
   {
     scrollTrigger: {
-      trigger: ".container-whatIsRap",
-      start: "top 20%",
-      end: "top 50%",
+      trigger: ".images-whatIsRap",
       scrub: true,
+      // pin: true
     },
     opacity: 1,
-    y: 0,
-    scale: 1,
-    ease: "power2.out",
+    ease: "power1.inOut",
+    x: "0vw",
+    y: "30vh"
   }
-);
+  );
 
-// What is rap? avec le cercle
-gsap.from(".title-whatIsRap", {
-  scrollTrigger: {
-    trigger: ".title-whatIsRap",
-    start: "top 80%",
-    end: "top 50%",
-    scrub: true,
-  },
-  opacity: 0,
-  x: -100,
-  ease: "power2.out",
-});
 
-// Images
-gsap.from(".images-whatIsRap img", {
-  scrollTrigger: {
-    trigger: ".images-whatIsRap",
-    start: "top bottom",
-    end: "top center",
-    scrub: true,
+
+
+gsap.fromTo(".title-whatIsRap"
+  , 
+  {
+    opacity: 1,
+    x: "-100vw"
   },
-  opacity: 0,
-  y: 100,
-  stagger: 0.2,
-  ease: "power2.out",
-});
+  {
+    scrollTrigger: {
+      trigger: ".title-whatIsRap",
+      scrub: true,
+    },
+    scale: 1,
+    opacity: 1,
+    ease: "power1.inOut",
+    x: "20vw",
+     y: "30vh"
+  }
+  );
+
+  gsap.fromTo(".parallax-whatIsRap"
+    , 
+    {
+      opacity: 1,
+      x: "-100vw"
+    },
+    {
+      scrollTrigger: {
+        trigger: ".title-whatIsRap",
+        scrub: true,  
+      },
+      scale: 1,
+      opacity: 1,
+      ease: "power1.inOut",
+      x: "20vw",
+       y: "30vh"
+    }
+    );
