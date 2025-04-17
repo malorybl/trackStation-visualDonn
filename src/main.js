@@ -65,21 +65,3 @@ gsap.fromTo(".title-whatIsRap"
   }
   );
 
-  gsap.fromTo(".parallax-whatIsRap"
-    , 
-    {
-      opacity: 1,
-      x: "-100vw"
-    },
-    {
-      scrollTrigger: {
-        trigger: ".title-whatIsRap",
-        scrub: true,  
-      },
-      scale: 1,
-      opacity: 1,
-      ease: "power1.inOut",
-      x: "20vw",
-       y: "30vh"
-    }
-    );
