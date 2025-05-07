@@ -71,7 +71,7 @@ gsap.fromTo(".parallax-whatIsRap",
 
 // — Over time title slide-in —
 gsap.fromTo(".title-overTime-container",
-  { opacity: 0, y: "100vh" },
+  { opacity: 0, y: "10vh" },
   {
     scrollTrigger: {
       trigger: ".title-overTime-container",
@@ -293,3 +293,55 @@ gsap.fromTo(".section-billboard-streaming",
     }
   }
 );
+
+
+gsap.fromTo(
+  ".section-quote-kendrick",
+  { scale: 1 }, // départ à 100%
+  {
+    scale: 0.5,  // arrivée à 50%
+    ease: "power1.inOut",
+    scrollTrigger: {
+      trigger: ".section-quote-kendrick",
+      start: "top 5%",
+      end: "+=700",
+      scrub: true,
+      pin: true
+    }
+  }
+);
+
+
+
+gsap.fromTo(".women-rap-artist-content",
+  { opacity: 0, y: "50vh" },
+  {
+    scrollTrigger: {
+      trigger: ".women-rap-artist-content",
+      start: "top 100%",
+      end: "top 50%",
+      scrub: 3,
+    },
+    opacity: 1,
+    ease: "power1.inOut",
+    y: "0vh"
+  }
+);
+
+
+//a travailler ça ne fonctionne pas
+gsap.fromTo(".section-quote-kendrick",
+  { opacity: 0, y: "10vh" },
+  {
+    scrollTrigger: {
+      trigger: ".section-quote-kendrick",
+      start: "top 95%",
+      end: "top 30%",
+      scrub: 2,
+    },
+    opacity: 1,
+    ease: "power1.inOut",
+    y: "0vh"
+  }
+);
+
