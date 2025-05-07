@@ -7,16 +7,6 @@
     overflow: hidden;
   }
   
-  .bg-grid {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
-    object-fit: cover;
-    opacity: 0.05;
-    z-index: 0;
-  }
   
   .women-rap-content-5 {
     position: relative;
@@ -35,6 +25,7 @@
     left: 5%;
     width: 30%;
     z-index: 2;
+    margin-top: 30rem;
   }
   
   .women-rap-title {
@@ -54,17 +45,6 @@
     transform: rotate(15deg);
     pointer-events: none;
     z-index: 1;
-  }
-
-
-
-  .women-rap-number-5 {
-    font-size: 14rem;
-    font-weight: bold;
-    color: white;
-    font-family: "obviously-wide", sans-serif;
-    z-index: 2;
-    text-align: center;
   }
 
 
@@ -107,15 +87,6 @@
     overflow: hidden;
   }
   
-  .bg-grid {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-  }
   
   .faded-number {
     position: absolute;
@@ -172,12 +143,13 @@
     max-height: 70vh;
     object-fit: contain;
     z-index: 2;
+    margin-right: 10rem;
   }
   
   .fleche-ice {
     width: 38%;;
     margin-top: -6rem;
-   margin-right: 42rem;
+   margin-right: 50rem;
     transform: rotate(30deg);
   }
 
@@ -213,14 +185,15 @@
 
   .doja-cat-img {
     max-height: 70vh;
-   margin-top: -8rem;
+   margin-top: -15rem;
     z-index: 2;
+    margin-right: 10rem;
   }
 
   .fleche-doja {
     width: 50%;;
     margin-top: -34rem;
-   margin-right: 42rem;
+   margin-right: 50rem;
     transform: rotate(200deg);
   }
 
@@ -241,30 +214,31 @@
 
   .sexyy-red-img {
     max-height: 70vh;
-   margin-top: -12rem;
+   margin-top: -16rem;
    margin-right: 22%;
     z-index: 2;
+    margin-right: 15rem;
   }
 
   .fleche-sexyy-red {
     width: 50%;;
     margin-top: -34rem;
-   margin-right: 42rem;
+   margin-right: 50rem;
     transform: rotate(190deg);
   }
 
 
   .nicki-minaj-img {
     max-height: 70vh;
-   margin-top: -12rem;
-   margin-right: 22%;
+   margin-top: -16rem;
+   margin-right: 16rem;
     z-index: 2;
   }
 
   .fleche-nicki-minaj {
     width: 45%;
     margin-top: -34rem;
-   margin-right: 42rem;
+   margin-right: 50rem;
     transform: rotate(155deg) scaleX(-1);
   }
 

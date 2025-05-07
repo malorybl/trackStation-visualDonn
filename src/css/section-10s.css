@@ -1,172 +1,132 @@
-/*SECTION ANNEES 2010S*/
+/* section-10s.css */
+
+/* Section 10s – Timeline */
+.section-10s {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f;
+  overflow: hidden;
+  margin-bottom: 10%;
+}
+
 .bg-nicki {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: 0;
-    opacity: 0.4;
-  }
-  
-  
-  .title-overTime-container-10s {
-    margin-top: 3rem; /* ajuste la valeur selon le décalage souhaité */
-  }
-  
-  .title-overTime-10s {
-    font-size: 3rem;
-    font-family: "obviously-wide", sans-serif;
-    margin-bottom: 0.8rem;
-    text-align: right;
-    margin-right: 23%; /* ajuste la position du texte */
-  }
-  
-  .trait-overTime-10s {
-    width: 350px; /* ajuste selon la taille réelle du trait */
-    margin-top: -30px; /* espace entre le texte et le trait */
-    height: 20px;
-    margin-left: 24%;
-  }
-  
-  .section-10s {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    background-color: #0f0f0f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .section-10s-right {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .section-10s-left {
-    width: 45%;
-    position: relative;
-    left: 3%;
-    height: 85%;
-    z-index: 2;
-    
-  }
-  .section-10s-left::before {
-    content: '';
-    position: absolute;
-    left: 20px;
-    top: 0;
-    width: 10px;
-    height: 100%;
-    background-color: #444;
-    border-radius: 10px;
-  }
-  
-  .section-10s-left::after {
-    content: '';
-    position: absolute;
-    left: 10px; /* Pour centrer la barre horizontale par rapport à la verticale */
-    top: 61%;
-    width: 30px;
-    height: 6px;
-    background-color: #ccc;
-    border-radius: 5px;
-  }
-  
-  
-  .decade-10s {
-    font-size: 48px;
-    font-family: "obviously-wide", sans-serif;
-    left: -20px;
-    margin-top: 60%;
-    margin-bottom: 30%;
-    margin-left: 60px;
-  }
-  
-  .text-10s {
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    
-    font-family: "obviously-wide", sans-serif;
-    font-size: 1rem;
-    color: white;
-    
-    width: 97%;          /* ← augmente la largeur réelle du texte */
-    max-width: 100%;      /* ← optionnel, si tu veux une limite souple */
-    line-height: 1.6;
-    
-    text-align: justify;
-    z-index: 2;
-  }
-  
-  
-  
-  
-  .timeline-10s {
-    position: absolute;
-    left: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 2;
-    text-align: left;
-  }
-  
-  .timeline-10s .line {
-    display: block;
-    width: 10px;
-    height: 90vh;
-    background-color: #444;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .fleche-10s {
-    width: 80px;
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-  .section-10s::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.2); /* noir semi-transparent */
-    z-index: 1;
-  }
-  
-  /*classe dans laquelle y a le cercle*/
-  .circle-wrapper {
-    position: relative;
-    display: inline-block;
-    max-width: 900px;
-    width: 100%;
-    right: 40%;
-    margin-top: -3rem; /* ← fait descendre tout le bloc */
-  }
-  
-  
-  .cercle-10s {
-    width: 130%;
-                   /* plus large (prend tout le conteneur) */  /* incliné */
-    
-    transform: translateY(2rem) scaleY(0.7);  /* plus bas et plus plat */
-    display: block;
-    transform: rotate(10deg); /* rotation de 0 degré */
-    
-  }
-  
-  
-  .fleche-10s {
-    position: absolute;
-    top: 80%;             /* ← ajuste pour la monter ou la descendre */
-    left: 50%;            /* ← ajuste pour la placer horizontalement */
-    width: 30%;           /* largeur responsive par rapport à l’écran */
-    transform: rotate(10deg);
-    z-index: 3;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.section-10s-left {
+  width: 45%;
+  position: relative;
+  left: -1%;
+  height: 85%;
+  z-index: 2;
+}
+
+.section-10s-left::before {
+  content: '';
+  position: absolute;
+  left: 1.25rem;
+  top: 0;
+  width: 0.625rem;
+  height: 100%;
+  background-color: #444;
+  border-radius: 0.625rem;
+}
+
+.section-10s-left::after {
+  content: '';
+  position: absolute;
+  left: 0.625rem;
+  top: 61%;
+  width: 1.875rem;
+  height: 0.375rem;
+  background-color: #ccc;
+  border-radius: 0.3125rem;
+}
+
+.decade-10s {
+  font-size: 3rem;
+  font-family: "obviously-wide", sans-serif;
+  margin-left: 3.75rem;
+  margin-top: 50%;
+  margin-bottom: 1.875rem;
+}
+
+.title-overTime-container-10s {
+  margin-top: 3rem;
+}
+
+.title-overTime-10s {
+  font-size: 3rem;
+  font-family: "obviously-wide", sans-serif;
+  text-align: right;
+  margin-right: 23%;
+  margin-bottom: 0.8rem;
+}
+
+.trait-overTime-10s {
+  width: 21.875rem;
+  margin-top: -1.875rem;
+  height: 1.25rem;
+  margin-left: 24%;
+}
+
+.circle-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 56.25rem;
+  width: 100%;
+  right: 40%;
+  margin-top: -3rem;
+  z-index: 2;
+}
+
+.cercle-10s {
+  width: 130%;
+  transform: translateY(2rem) scaleY(0.7) rotate(10deg);
+}
+
+.text-10s {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-family: "obviously-wide", sans-serif;
+  font-size: 1rem;
+  color: white;
+  width: 97%;
+  max-width: 100%;
+  line-height: 1.6;
+  text-align: justify;
+  z-index: 2;
+}
+
+.fleche-10s {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 30%;
+  transform: rotate(10deg);
+  z-index: 3;
+}
+
+.section-10s::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}

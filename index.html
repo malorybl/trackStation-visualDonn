@@ -14,9 +14,6 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
 
 
 <script src="https://d3js.org/d3.v4.js"></script>
@@ -27,26 +24,24 @@
   <body>
 
 
-    
+    <div>
+          <h1 class="title">TRACK<br>STATION</h1>
+    </div>
       
 
       <div class="container-whatIsRap">
 
-        <h1 class="title">TRACK<br>STATION</h1>
-
-      
-     
         <div class="bottom-content">
-          <section class="title-whatIsRap">
+          <div class="title-whatIsRap">
             <h2>what is rap?</h2>
-            <img src="public/img/cercle-craie.png" alt="Cercle" class="cercle">
-          </section>
+            <img src="img/cercle-craie.png" alt="Cercle" class="cercle">
+          </div>
       
-          <section class="images-whatIsRap">
-            <img src="public/img/tupac-dechire.png" alt="Rappeur 1" class="tupac-dechire">
-            <img src="public/img/snoop-dechire.png" alt="Rappeur 2" class="snoop-dechire">
-            <img src="public/img/kendrick-dechire.png" alt="Rappeur 3" class="kendrick-dechire">
-          </section>
+          <div class="images-whatIsRap">
+            <img src="img/tupac-dechire.png" alt="Rappeur 1" class="tupac-dechire">
+            <img src="img/snoop-dechire.png" alt="Rappeur 2" class="snoop-dechire">
+            <img src="img/kendrick-dechire.png" alt="Rappeur 3" class="kendrick-dechire">
+          </div>
         </div>
       </div>
    
@@ -60,96 +55,88 @@
       </h3>
   </section>
 
+
+<!-- Timeline wrapper englobant les sections 90s, 00s et 10s -->
+<div class="title-overTime-container">
+  <h2 class="title-overTime">Over time</h2>
+  <img src="img/trait-craie.png" alt="Trait" class="trait-overTime">
+</div>
+
+<div class="timeline-sequence">
+
+  <!-- Elément fixe à gauche : barre verticale, barre horizontale, label -->
+  
+
+  <!-- Section 90s -->
   <section class="section-90s">
-    
     <div class="section-90s-left">
-      <div class="decade-90s"> 90s</div>
+      <div class="decade-90s">90s</div>
       <p class="description">
-        The 1990s are widely considered the golden age of rap. It was a time when lyrical skill, storytelling, and social commentary reached new heights. Artists like Tupac, The Notorious B.I.G., Nas, Wu-Tang Clan, and Lauryn Hill brought powerful messages about racism, poverty, violence, and identity. East Coast vs. West Coast rivalries shaped the scene, while regions like the South and Midwest started to emerge. Production became more refined, but the raw, authentic tone remained central. The 90s also saw rap gain respect as a true cultural and artistic force, influencing fashion, film, and politics.
+        The 1990s are widely considered the golden age of rap. It was a time when lyrical skill, storytelling, and
+        social commentary reached new heights. Artists like Tupac, The Notorious B.I.G., Nas, Wu-Tang Clan, and Lauryn
+        Hill brought powerful messages about racism, poverty, violence, and identity. East Coast vs. West Coast
+        rivalries shaped the scene, while regions like the South and Midwest started to emerge. Production became more
+        refined, but the raw, authentic tone remained central. The 90s also saw rap gain respect as a true cultural and
+        artistic force, influencing fashion, film, and politics.
       </p>
     </div>
     <div class="section-90s-right">
-      <div class="title-overTime-container">
-      <h2 class="title-overTime">Over time</h2>
-      <img src="public/img/trait-craie.png" alt="Trait" class="trait-overTime">
-      </div>
-  
       <div class="rappers-90s">
-      
-        <img src="public/img/eminem90-dechire.png" alt="EMINEM" class="eminem90-dechire">
-        <img src="public/img/jayz90-dechire.png" alt="JAY-Z" class="jayz90-dechire">
-        <img src="public/img/snoopdogg90-dechire.png" alt="SNOOP DOGG" class="snoopdogg90-dechire">
-        <img src="public/img/tupac-dechire.png" alt="TUPAC" class="tupac90-dechire">
-          
-        </div>
+        <img src="img/eminem90-dechire.png" alt="EMINEM" class="eminem90-dechire">
+        <img src="img/jayz90-dechire.png" alt="JAY-Z" class="jayz90-dechire">
+        <img src="img/snoopdogg90-dechire.png" alt="SNOOP DOGG" class="snoopdogg90-dechire">
+        <img src="img/tupac-dechire.png" alt="TUPAC" class="tupac90-dechire">
       </div>
     </div>
   </section>
-<section class="tupac-fact-container">
-  <div class="tupac-fact">
-    <img src="public/img/scotch1.png" alt="" class="scotch">
-    <div class="paper">
-      <div class="tupac-fact-year">1996</div>
-      <p class="tupac-fact-description">
-        In September 1996, Tupac was shot just before the release of his fourth album, <em>All Eyez on Me</em>, which featured two tracks that took over every speaker in the world: <strong>"How Do You Want It"</strong> and <strong>"California Love"</strong>.
+
+  <!-- Section 00s -->
+  <section class="section-00s">
+    <div class="section-00s-left">
+      <div class="decade-00s">00s</div>
+      <p class="description-00s">
+        In the 2000s, rap became a cultural powerhouse, blending mainstream appeal with street authenticity. Artists
+        like Eminem, 50 Cent, Jay-Z, and Missy Elliott dominated the charts, while the South rose with the popularity of
+        crunk, trap, and labels like Cash Money and No Limit. Mixtapes and DVDs helped underground artists build huge
+        fanbases outside of traditional media. The themes often revolved around success, fame, struggle, and resilience,
+        with flashy beats and catchy hooks. Rap videos became more cinematic, and collaborations with pop and R&B
+        artists brought hip-hop to new global audiences.
       </p>
     </div>
-  </div>
-  </section>
-
-  <section class="section-00s">
-    
-    <div class="section-00s-left">
-      <div class="decade-00s"> 00s</div>
-     
-    </div>
     <div class="section-00s-right">
-      <div class="title-overTime-container">
-      <h2 class="title-overTime">Over time</h2>
-      <img src="public/img/trait-craie.png" alt="Trait" class="trait-overTime">
-      </div>
-  
       <div class="rappers-00s">
-        <p class="description-00s">
-          In the 2000s, rap became a cultural powerhouse, blending mainstream appeal with street authenticity. Artists like Eminem, 50 Cent, Jay-Z, and Missy Elliott dominated the charts, while the South rose with the popularity of crunk, trap, and labels like Cash Money and No Limit. Mixtapes and DVDs helped underground artists build huge fanbases outside of traditional media. The themes often revolved around success, fame, struggle, and resilience, with flashy beats and catchy hooks. Rap videos became more cinematic, and collaborations with pop and R&B artists brought hip-hop to new global audiences.
-        </p>
-      
-        <img src="public/img/50cent00-poster.png" alt="" class="fiftyCent00-dechire">
-          
-        </div>
+        <img src="img/50cent00-poster.png" alt="50 Cent" class="fiftyCent00-dechire">
       </div>
     </div>
   </section>
 
+  <!-- Section 10s -->
   <section class="section-10s">
-    <img src="public/img/nicki10s-poster.png" alt="Nicki Minaj" class="bg-nicki">
-    
+    <img src="img/nicki10s-poster.png" alt="Nicki Minaj" class="bg-nicki">
     <div class="section-10s-left">
-      <div class="decade-10s"> 10s</div>
-      <img src="public/img/fleche-craie.png" alt="Flèche" class="fleche-10s">
-     
+      <div class="decade-10s">10s</div>
+      <img src="img/fleche-craie.png" alt="Flèche" class="fleche-10s">
     </div>
     <div class="section-10s-right">
-      <div class="title-overTime-container-10s">
-      <h2 class="title-overTime-10s">Over time</h2>
-      <img src="public/img/trait-craie.png" alt="Trait" class="trait-overTime-10s">
-      </div>
-  
       <div class="circle-wrapper">
-        <img src="public/img/cercle-craie.png" alt="Cercle" class="cercle-10s">
+        <img src="img/cercle-craie.png" alt="Cercle" class="cercle-10s">
         <p class="text-10s">
-          In the 2010s, rap became fully mainstream. Artists mixed rap with pop, R&B, and electronic sounds. Themes focused on fame, wealth, identity, and self-empowerment. It was also the rise of streaming platforms, which changed how music was shared and discovered. Rap became global, with artists from all backgrounds reaching massive audiences.
+          In the 2010s, rap became fully mainstream. Artists mixed rap with pop, R&B, and electronic sounds. Themes
+          focused on fame, wealth, identity, and self-empowerment. It was also the rise of streaming platforms, which
+          changed how music was shared and discovered. Rap became global, with artists from all backgrounds reaching
+          massive audiences.
         </p>
-      </div>         
-        </div>
       </div>
     </div>
   </section>
+
+</div>
+
 
   <section class="kendrick-lyrics-container">
     <div class="kendrick-lyrics">
-      <img src="public/img/scotch2.png" alt="" class="scotch1-lyrics-kendrick">
-      <img src="public/img/scotch3.png" alt="" class="scotch2-lyrics-kendrick">
+      <img src="img/scotch2.png" alt="" class="scotch1-lyrics-kendrick">
+      <img src="img/scotch3.png" alt="" class="scotch2-lyrics-kendrick">
       <div class="paper-lyrics-kendrick">
         <p class="kendrick-lyrics-description">
           "The sky is falling, the wind is calling. Stand for something, or die in the morning."
@@ -175,25 +162,25 @@
     
       <div class="section-today-right">
         <h2 class="title-overTime-today">over time</h2>
-        <img src="public/img/trait-craie.png" alt="Trait" class="trait-overTime-today">
+        <img src="img/trait-craie.png" alt="Trait" class="trait-overTime-today">
     
         <div class="tags-today">
           <p class="tag conscious">conscious rap</p>
-          <img src="public/img/fleche-craie-droite.png" alt="Flèche" class="arrow-conscious">
+          <img src="img/fleche-craie-droite.png" alt="Flèche" class="arrow-conscious">
     
           <p class="tag drill">drill</p>
     
           <p class="tag social">social<br>commitment</p>
-          <img src="public/img/fleche-craie.png" alt="Flèche" class="arrow-social">
+          <img src="img/fleche-craie.png" alt="Flèche" class="arrow-social">
     
           <p class="tag trap">trap</p>
-          <img src="public/img/cercle-craie.png" alt="Cercle" class="circle-trap">
+          <img src="img/cercle-craie.png" alt="Cercle" class="circle-trap">
     
           <p class="tag politics">politics</p>
-          <img src="public/img/cercle-craie.png" alt="Cercle" class="circle-politics">
+          <img src="img/cercle-craie.png" alt="Cercle" class="circle-politics">
     
           <p class="tag struggle">socioeconomic<br>struggle</p>
-          <img src="public/img/trait-craie.png" alt="Trait" class="trait-struggle">
+          <img src="img/trait-craie.png" alt="Trait" class="trait-struggle">
         </div>
       </div>
     </section>
@@ -219,7 +206,7 @@
     
       <div class="influence-right">
         <div class="circle-percentage">
-          <img src="public/img/cercle-craie.png" alt="Cercle" class="circle-img">
+          <img src="img/cercle-craie.png" alt="Cercle" class="circle-img">
           <p class="percentage">26%</p>
         </div>
       </div>
@@ -247,20 +234,19 @@ This map shows where some of the most iconic rappers in America come from.
 
 
     <section class="section-billboard">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
     
       <div class="billboard-content">
         <div class="billboard-title-wrapper">
           <h2 class="billboard-title">Billboard's<br>most influent<br>rappers</h2>
-          <img src="public/img/cercle-craie.png" alt="Cercle" class="billboard-circle">
+          <img src="img/cercle-craie.png" alt="Cercle" class="billboard-circle">
         </div>
     
         <div class="billboard-faces">
-          <img src="public/img/kendrick_face.png" alt="Rappeur 1" class="face">
-          <img src="public/img/tyler_face.png" alt="Rappeur 2" class="face">
-          <img src="public/img/future_face 2.png" alt="Rappeur 3" class="face">
-          <img src="public/img/drake_face.png" alt="Rappeur 4" class="face">
-          <img src="public/img/travis_face.png" alt="Rappeur 5" class="face">
+          <img src="img/kendrick_face.png" alt="Rappeur 1" class="face">
+          <img src="img/tyler_face.png" alt="Rappeur 2" class="face">
+          <img src="img/future_face 2.png" alt="Rappeur 3" class="face">
+          <img src="img/drake_face.png" alt="Rappeur 4" class="face">
+          <img src="img/travis_face.png" alt="Rappeur 5" class="face">
         </div>
       </div>
     </section>
@@ -270,19 +256,18 @@ This map shows where some of the most iconic rappers in America come from.
 
 
     <section class="section-billboard-streaming">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
     
       <div class="billboard-streaming-content">
         <div class="billboard-streaming-title-wrapper">
           <h2 class="billboard-streaming-title">Monthly listeners on Spotify</h2>
-          <img src="public/img/trait-craie.png" alt="Trait" class="billboard-streaming-trait">
+          <img src="img/trait-craie.png" alt="Trait" class="billboard-streaming-trait">
         </div>
     
         <div class="faces-streaming">
 
           <div class="face-streaming">
             <div class="rank-number">1</div>
-            <img src="public/img/kendrick_face.png" alt="Kendrick">
+            <img src="img/kendrick_face.png" alt="Kendrick">
             <div class="face-name">KENDRICK LAMAR</div>
             <div class="face-bar-wrapper"><div class="face-bar" style="width: 100%;"></div></div>
             <div class="face-count">110.8M</div>
@@ -290,7 +275,7 @@ This map shows where some of the most iconic rappers in America come from.
     
           <div class="face-streaming">
             <div class="rank-number">2</div>
-            <img src="public/img/tyler_face.png" alt="Tyler">
+            <img src="img/tyler_face.png" alt="Tyler">
             <div class="face-name">TYLER THE CREATOR</div>
             <div class="face-bar-wrapper"><div class="face-bar" style="width: 44%;"></div></div>
             <div class="face-count">49M</div>
@@ -298,7 +283,7 @@ This map shows where some of the most iconic rappers in America come from.
     
           <div class="face-streaming">
             <div class="rank-number">3</div>
-            <img src="public/img/future_face 2.png" alt="Future">
+            <img src="img/future_face 2.png" alt="Future">
             <div class="face-name">FUTURE</div>
             <div class="face-bar-wrapper"><div class="face-bar" style="width: 56%;"></div></div>
             <div class="face-count">62.3M</div>
@@ -306,7 +291,7 @@ This map shows where some of the most iconic rappers in America come from.
 
             <div class="face-streaming">
               <div class="rank-number">4</div>
-              <img src="public/img/drake_face.png" alt="Drake">
+              <img src="img/drake_face.png" alt="Drake">
               <div class="face-name">DRAKE</div>
               <div class="face-bar-wrapper">
                 <div class="face-bar" style="width: 74%;"></div>
@@ -316,7 +301,7 @@ This map shows where some of the most iconic rappers in America come from.
     
           <div class="face-streaming">
             <div class="rank-number">5</div>
-            <img src="public/img/travis_face.png" alt="Travis">
+            <img src="img/travis_face.png" alt="Travis">
             <div class="face-name">TRAVIS SCOTT</div>
             <div class="face-bar-wrapper"><div class="face-bar" style="width: 64%;"></div></div>
             <div class="face-count">70.8M</div>
@@ -327,290 +312,228 @@ This map shows where some of the most iconic rappers in America come from.
     </section>
 
 
-    <section class="section-portrait-rapper">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
-    
-      <div class="portrait-rapper-content">
-        <img src="public/img/kendrick_face.png" alt="Kendrick Lamar" class="portrait-face">
-        <div class="portrait-text">
-          <h2 class="portrait-name">Kendrick lamar</h2>
-          <p class="portrait-description">
-            In 2024, Kendrick Lamar cemented his status as the hottest rapper in the world. He decisively won his battle against Drake, dropping multiple No. 1 diss tracks that dominated the culture. His strategic approach extended beyond music—he headlined his own arena show in L.A., released the highly anticipated GNX, and announced a stadium tour. To cap it all off, he’s set to headline the Super Bowl. This year wasn’t just a victory lap for Kendrick—it was a masterclass in domination.
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <section class="section-portrait-rapper">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
-    
-      <div class="portrait-rapper-content">
-        <img src="public/img/tyler_face.png" alt="Tyler the Creator" class="portrait-face">
-        <div class="portrait-text">
-          <h2 class="portrait-name">Tyler the<br>Creator</h2>
-          <p class="portrait-description">
-            In 2024, Tyler, the Creator solidified his status as a visionary. With CHROMAKOPIA, his most successful album to date, he blended artistry and commercial success on his own terms. His curated rollouts and pop-up shows set the stage for a visually stunning world tour. Meanwhile, Camp Flog Gnaw thrived while other festivals struggled, proving his deep connection with fans. Between that and high-profile fashion collabs with Louis Vuitton and Supreme, Tyler isn’t just following the blueprint—he’s redefining it.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-portrait-rapper">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
-    
-      <div class="portrait-rapper-content">
-        <img src="public/img/drake_face.png" alt="Drake" class="portrait-face">
-        <div class="portrait-text">
-          <h2 class="portrait-name">Drake</h2>
-          <p class="portrait-description">
-            In 2024, Drake found himself at the center of one of the biggest rap beefs in history against Kendrick Lamar. While widely seen as the loser, he delivered hard-hitting diss tracks, especially Family Matters. Despite the loss, his massive catalog still dominates streaming, proving he remains one of the most influential artists in the game.
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <section class="section-portrait-rapper">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
-    
-      <div class="portrait-rapper-content">
-        <img src="public/img/future_face 2.png" alt="Future" class="portrait-face">
-        <div class="portrait-text">
-          <h2 class="portrait-name">Future</h2>
-          <p class="portrait-description">
-            In 2024, Future made history as the first rapper to score three No. 1 albums in a single year. His collaboration with Metro Boomin, We Don’t Trust You, ignited the Drake vs. Kendrick beef with the explosive track Like That. Beyond the drama, Future delivered some of his best rapping yet, capped off by his solo mixtape Pluto. With nonstop hits and high-profile features, he proved once again why he’s one of the most consistent and influential artists in the game.
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <section class="section-portrait-rapper">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
-    
-      <div class="portrait-rapper-content">
-        <img src="public/img/travis_face.png" alt="Travis scott" class="portrait-face-travis">
-        <div class="portrait-text">
-          <h2 class="portrait-name">travis scott</h2>
-          <p class="portrait-description">
-            In 2024, Travis Scott continues to dominate music and culture without even releasing a new album. He extends UTOPIA's success with FE!N, now triple-platinum, and breaks records with his Circus Maximus Tour, the highest-grossing solo rap tour. As the headliner and creative director of ComplexCon, he cements his influence beyond music. His next album is set to be a major event.
-          </p>
-        </div>
-      </div>
-    </section>
+   
     
 
-    
+<section class="male-faces">
 
+  <div class="portrait-rapper-content">
 
-    <section class="section-quote-kendrick">
-      <div class="quote-wrapper">
-        <img src="public/img/scotch2.png" alt="Scotch gauche" class="quote-scotch-left">
-        <img src="public/img/scotch3.png" alt="Scotch droit" class="quote-scotch-right">
-        <img src="public/img/torn-paper-2.png" alt="Papier déchiré" class="quote-paper">
-    
-        <div class="quote-text">
-          <p class="quote-content">
-            "The sky is falling, the wind is calling. Stand for something, or die in the morning."
-          </p>
-          <p class="quote-author">Kendrick Lamar – <em>“HiiiPower”</em></p>
-        </div>
-      </div>
-    </section>
-    
-
-
-
-
-
-    <section class="section-women-rap">
-      <img src="public/img/grid.png" alt="background" class="bg-grid">
-    
-      <div class="women-rap-content-5">
-        <div class="women-rap-title-wrapper">
-          <h2 class="women-rap-title">Women in rap</h2>
-          <img src="public/img/cercle-craie.png" alt="Cercle" class="women-rap-circle">
-        </div>
-        <div class="women-rap-number-5">5</div>
-      </div>
-    </section>
-    <section class="section-women-rap-artist">
-      
-      <div class="women-rap-number faded-number">5</div>
-    
-      <div class="women-rap-artist-content">
-        <div class="text-block">
-          <h2 class="artist-name">Ice spice</h2>
-          <p class="artist-description">
-            Crowned Billboard’s R&B/Hip-Hop Rookie of the Year in 2023, Ice Spice made waves with top 10 hits like “Boy’s a Liar Pt. 2” and collabs with Nicki Minaj and Taylor Swift. In 2024, she’s proving her solo power with her debut album Y2K on the way. Her playful single “Think U the Shit (Fart)” became her highest-charting solo track, while her remix of “Fisherrr” showed off her sharpest verse yet. Ice is here to last — not just trend.
-          </p>
-      
-          <!-- Ajout des stats -->
-          <div class="stats">
-            <div class="stat-item">
-              <img src="public/img/spotify-logo-grey.png" alt="Spotify" class="-icon" />
-              <p class="stream-number">12.4M</p>
-            </div>
-            
-          </div>
-        </div>
-      
-        <div class="image-block">
-          <img src="public/img/ice_spice.png" alt="Ice Spice" class="ice-spice-img" />
-          <img src="public/img/fleche-craie.png" alt="flèche" class="fleche-ice" />
-        </div>
-      </div>
-      </section>
-
-    
-
-
-
-
-
-    <section class="section-women-rap">
-      
-        <div class="women-rap-number">4</div>
-      </div>
-    </section>
-    <section class="section-women-rap-artist">
-      <div class="women-rap-number faded-number">4</div>
-    
-      <div class="women-rap-artist-content">
-        <div class="text-block">
-          <h2 class="artist-name">Doja cat</h2>
-          <p class="artist-description">
-            Doja Cat’s 2023 album Scarlet proved her rap credibility, with tracks like “Demons” and “Attention” showcasing sharp bars and bold style. She silenced critics with the hit “Paint the Town Red,” which ended a 20-year drought for rap at No. 1 on the Hot 100. In 2024, she’s kept the momentum going with the deluxe CLAUDE edition, a Coachella headlining debut, and the long-running success of “Agora Hills.” Doja blends rap and pop like no one else right now.
-          </p>
-    
-          <!-- Statistiques ajoutées -->
-          <div class="stats">
-            <div class="stat-item">
-              <img src="public/img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
-              <p class="stream-number">56.7M</p>
-            </div>
-          </div>
-        </div>
-    
-        <div class="image-block">
-          <img src="public/img/Doja_cat.png" alt="DOJA CAT" class="doja-cat-img" />
-          <img src="public/img/fleche-craie.png" alt="flèche" class="fleche-doja" />
-        </div>
-      </div>
-    </section>
-    
-
-
-
-
-
-
-
-    <section class="section-women-rap">
-      
-        <div class="women-rap-number">3</div>
-      </div>
-    </section>
-
-  <section class="section-women-rap-artist">
-    <div class="women-rap-number faded-number">3</div>
-  
-    <div class="women-rap-artist-content">
-      <div class="text-block">
-        <h2 class="artist-name">Megan thee Stallion</h2>
-        <p class="artist-description">
-          Hailing from Houston, Megan Thee Stallion has proven she’s more than just a one-hit wonder. From her “Savage Remix” with Beyoncé to the chart-topping “WAP” with Cardi B, Meg consistently delivers major hits. In 2024, she dropped “Hiss,” her first solo No.1, sparking headlines and sealing a major distribution deal with Warner Music. As she kicks off her Hot Girl Summer Tour, she’s also building a brand empire with partnerships like Nike and Coach. Megan isn’t just a rapper — she’s a force in music, business, and culture.
+    <div class="portrait-rapper">
+      <img src="img/kendrick_face.png" alt="Kendrick Lamar" class="portrait-face">
+      <div class="portrait-text">
+        <h2 class="portrait-name">Kendrick Lamar</h2>
+        <p class="portrait-description">
+              In 2024, Kendrick Lamar cemented his dominance by dropping multiple No. 1 diss tracks in his high-profile battle with
+              Drake. He sold out arena shows, released his album GNX, and launched a global stadium tour. To top it off, he’s set to
+              headline the Super Bowl halftime show.
         </p>
-  
-        <!-- Statistiques ajoutées -->
-        <div class="stats">
-          <div class="stat-item">
-            <img src="public/img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
-            <p class="stream-number">26.6M</p>
-          </div>
-         
-        </div>
-      </div>
-  
-      <div class="image-block">
-        <img src="public/img/megan_thee_stallion.png" alt="Megan thee Stallion" class="megan-img" />
-        <img src="public/img/fleche-craie.png" alt="flèche" class="fleche-megan" />
       </div>
     </div>
-  </section>
-  
+
+    <div class="portrait-rapper">
+      <img src="img/tyler_face.png" alt="Tyler the Creator" class="portrait-face">
+      <div class="portrait-text">
+        <h2 class="portrait-name">Tyler the Creator</h2>
+        <p class="portrait-description">
+          At Coachella 2024, Tyler closed out the festival with surprise guests like Childish Gambino and A$AP Rocky. His
+          self-produced album Chromakopia debuted at No. 1 on the Billboard 200, and his Louis Vuitton capsule won Best Fashion
+          Partnership. He’s now gearing up for the Chromakopia World Tour in early 2025.
+        </p>
+      </div>
+    </div>
+
+    <div class="portrait-rapper">
+      <img src="img/drake_face.png" alt="Drake" class="portrait-face">
+      <div class="portrait-text">
+        <h2 class="portrait-name">Drake</h2>
+        <p class="portrait-description">
+          Drake swept Top Rap Artist and Top Male Rap Artist at the 2024 Billboard Music Awards. His $ome $exy $ongs 4 U tour tied
+          records for most No. 1 solo albums, and his live generosity—upgrading VIP seats—made headlines. Through strategic
+          releases and blockbuster shows, he remains a cultural powerhouse.
+        </p>
+      </div>
+    </div>
+
+    <div class="portrait-rapper">
+      <img src="img/future_face 2.png" alt="Future" class="portrait-face">
+      <div class="portrait-text">
+        <h2 class="portrait-name">Future</h2>
+        <p class="portrait-description">
+          Future became the first rapper ever to score three No. 1 albums in a single year. His collaboration with Metro Boomin,
+          We Don’t Trust You, reignited the Drake–Kendrick feud with the hit “Like That.” He capped the year with his Pluto
+          mixtape and earned four Grammy nominations, reinforcing his influence.
+        </p>
+      </div>
+    </div>
+
+    <div class="portrait-rapper">
+      <img src="img/travis_face.png" alt="Travis scott" class="portrait-face-travis">
+      <div class="portrait-text">
+        <h2 class="portrait-name">travis scott</h2>
+        <p class="portrait-description">
+          Without releasing a new album, Travis extended the UTOPIA era via the triple-platinum single “FE!N” and the
+          record-breaking Circus Maximus Tour. As Creative Director and headliner of ComplexCon, plus sold-out Nike/Jordan
+          collabs, he broadened his cultural footprint. His next projects are already among the most
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section-quote-kendrick">
+  <div class="quote-wrapper">
+    <img src="img/scotch2.png" alt="Scotch gauche" class="quote-scotch-left">
+    <img src="img/scotch3.png" alt="Scotch droit" class="quote-scotch-right">
+    <img src="img/torn-paper-2.png" alt="Papier déchiré" class="quote-paper">
+
+    <div class="quote-text">
+      <p class="quote-content">
+        "The sky is falling, the wind is calling. Stand for something, or die in the morning."
+      </p>
+      <p class="quote-author">Kendrick Lamar – <em>“HiiiPower”</em></p>
+    </div>
+  </div>
+</section>
 
 
 
+<!-- Women in rap — horizontal scroll wrapper -->
+<section class="women-faces">
+  <div class="women-rapper-content">
 
+    <!-- Slide 0: Intro / title -->
+    <section class="slide section-women-rap">
+        <div class="women-rap-title-wrapper">
+          <h2 class="women-rap-title">Women in rap</h2>
+          <img src="img/cercle-craie.png" alt="Cercle" class="women-rap-circle">
+    </section>
 
-
-
-    <section class="section-women-rap">
-      
-        <div class="women-rap-number">2</div>
+    <!-- Slide 1: Ice Spice -->
+    <section class="slide section-women-rap-artist">
+      <div class="women-rap-number faded-number">5</div>
+      <div class="women-rap-artist-content">
+        <div class="text-block">
+          <h2 class="artist-name">Ice Spice</h2>
+          <p class="artist-description">
+            Crowned Billboard’s R&B/Hip-Hop Rookie of the Year in 2023, Ice Spice made waves with top-10 hits like
+            “Boy’s a Liar Pt. 2” and collabs with Nicki Minaj and Taylor Swift. In 2024, she’s proving her solo power
+            with her debut album Y2K. Her playful single “Think U the Shit” became her biggest solo hit yet.
+          </p>
+          <div class="stats">
+            <div class="stat-item">
+              <img src="img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
+              <p class="stream-number">12.4 M</p>
+            </div>
+          </div>
+        </div>
+        <div class="image-block">
+          <img src="img/ice_spice.png" alt="Ice Spice" class="ice-spice-img" />
+          <img src="img/fleche-craie.png" alt="flèche" class="fleche-ice" />
+        </div>
       </div>
     </section>
-    <section class="section-women-rap-artist">
+
+    <!-- Slide 2: Doja Cat -->
+    <section class="slide section-women-rap-artist">
+      <div class="women-rap-number faded-number">4</div>
+      <div class="women-rap-artist-content">
+        <div class="text-block">
+          <h2 class="artist-name">Doja Cat</h2>
+          <p class="artist-description">
+            After Scarlet and the chart-topping “Paint the Town Red,” Doja kept momentum in 2024 with deluxe releases
+            and her Coachella debut, blending rap and pop in her signature style.
+          </p>
+          <div class="stats">
+            <div class="stat-item">
+              <img src="img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
+              <p class="stream-number">56.7 M</p>
+            </div>
+          </div>
+        </div>
+        <div class="image-block">
+          <img src="img/Doja_cat.png" alt="Doja Cat" class="doja-cat-img" />
+          <img src="img/fleche-craie.png" alt="flèche" class="fleche-doja" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 3: Megan Thee Stallion -->
+    <section class="slide section-women-rap-artist">
+      <div class="women-rap-number faded-number">3</div>
+      <div class="women-rap-artist-content">
+        <div class="text-block">
+          <h2 class="artist-name">Megan Thee Stallion</h2>
+          <p class="artist-description">
+            From “Savage” with Beyoncé to her solo No. 1 “Hiss,” Meg dominated 2024 and launched her Hot Girl Summer
+            Tour, plus major brand partnerships with Nike and Coach.
+          </p>
+          <div class="stats">
+            <div class="stat-item">
+              <img src="img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
+              <p class="stream-number">26.6 M</p>
+            </div>
+          </div>
+        </div>
+        <div class="image-block">
+          <img src="img/megan_thee_stallion.png" alt="Megan Thee Stallion" class="megan-img" />
+          <img src="img/fleche-craie.png" alt="flèche" class="fleche-megan" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4: Sexyy Red -->
+    <section class="slide section-women-rap-artist">
       <div class="women-rap-number faded-number">2</div>
-    
       <div class="women-rap-artist-content">
         <div class="text-block">
           <h2 class="artist-name">Sexyy Red</h2>
           <p class="artist-description">
-            Sexyy Red rose to fame with viral hits like “Pound Town,” facing criticism for being “too ghetto” or a bad influence. But behind the wild image is sharp humor and a sound rooted in Southern rap, echoing legends like Waka Flocka and Gucci Mane. She’s mastered the internet, turning outrageous moments into chart success with tracks like “Get It Sexxy” and “SkeeYee.” From viral performances in beauty stores to appearances at NFL games and WWE shows, she’s everywhere. Love her or hate her, Sexyy Red is authentic, entertaining, and clearly here to stay.
+            Viral hit “Pound Town” and her unapologetic persona made Sexyy Red one of 2024’s breakout stars—sharp, bold,
+            and impossible to ignore.
           </p>
-    
-          <!-- Statistiques ajoutées -->
           <div class="stats">
             <div class="stat-item">
-              <img src="public/img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
-              <p class="stream-number">25.8M</p>
+              <img src="img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
+              <p class="stream-number">25.8 M</p>
             </div>
-            
           </div>
         </div>
-    
         <div class="image-block">
-          <img src="public/img/sexyy_red.png" alt="Sexyy red" class="sexyy-red-img" />
-          <img src="public/img/fleche-craie.png" alt="flèche" class="fleche-sexyy-red" />
+          <img src="img/sexyy_red.png" alt="Sexyy Red" class="sexyy-red-img" />
+          <img src="img/fleche-craie.png" alt="flèche" class="fleche-sexyy-red" />
         </div>
       </div>
     </section>
-    
 
-
-    
-
-
-    <section class="section-women-rap">
-      
-        <div class="women-rap-number">1</div>
-      </div>
-    </section>
-    <section class="section-women-rap-artist">
+    <!-- Slide 5: Nicki Minaj -->
+    <section class="slide section-women-rap-artist">
       <div class="women-rap-number faded-number">1</div>
-    
       <div class="women-rap-artist-content">
         <div class="text-block">
           <h2 class="artist-name">Nicki Minaj</h2>
           <p class="artist-description">
-            Fifteen years after Beam Me Up Scotty, Nicki Minaj remains a dominant force in hip-hop. In 2023, she boosted rising stars like Sexyy Red with “Pound Town 2” and scored a top 10 hit with Ice Spice on Barbie World. She ended the year strong with Pink Friday 2, debuting at No.1 on the Billboard 200 and landing 14 songs on the Hot 100. Her world tour, drawing nearly $2 million per night, confirmed her status as a living legend. Nicki isn’t just relevant — she’s still the center of the rap universe.
+            Still a reigning queen in 2024—Pink Friday 2 debuted at No. 1, she notched 14 Hot 100 hits, and her world
+            tour shattered attendance records.
           </p>
-    
-          <!-- Statistiques ajoutées -->
           <div class="stats">
             <div class="stat-item">
-              <img src="public/img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
-              <p class="stream-number">45.1M</p>
+              <img src="img/spotify-logo-grey.png" alt="Spotify" class="spotify-icon" />
+              <p class="stream-number">45.1 M</p>
             </div>
           </div>
         </div>
-    
         <div class="image-block">
-          <img src="public/img/nicki_minaj.png" alt="Nicki Minaj" class="nicki-minaj-img" />
-          <img src="public/img/fleche-craie.png" alt="flèche" class="fleche-nicki-minaj" />
+          <img src="img/nicki_minaj.png" alt="Nicki Minaj" class="nicki-minaj-img" />
+          <img src="img/fleche-craie.png" alt="flèche" class="fleche-nicki-minaj" />
         </div>
       </div>
     </section>
+
+  </div>
+</section>
     
     
 
@@ -618,19 +541,18 @@ This map shows where some of the most iconic rappers in America come from.
 
 
     <section class="section-billboard-streaming">
-      <img src="public/img/poster-noir.png" alt="Background" class="bg-billboard">
     
       <div class="billboard-streaming-content">
         <div class="billboard-streaming-title-wrapper">
           <h2 class="billboard-streaming-title">Monthly listeners on Spotify</h2>
-          <img src="public/img/trait-craie.png" alt="Trait" class="billboard-streaming-trait">
+          <img src="img/trait-craie.png" alt="Trait" class="billboard-streaming-trait">
         </div>
     
         <div class="faces-streaming">
     
           <div class="face-streaming">
             <div class="rank-number">1</div>
-            <img src="public/img/nicki_minaj.png" alt="Nicki Minaj">
+            <img src="img/nicki_minaj.png" alt="Nicki Minaj">
             <div class="face-name">NICKI MINAJ</div>
             <div class="face-bar-wrapper">
               <div class="face-bar" style="width: 79%;"></div>
@@ -640,7 +562,7 @@ This map shows where some of the most iconic rappers in America come from.
     
           <div class="face-streaming">
             <div class="rank-number">2</div>
-            <img src="public/img/sexyy_red.png" alt="Sexyy Red">
+            <img src="img/sexyy_red.png" alt="Sexyy Red">
             <div class="face-name">SEXYY RED</div>
             <div class="face-bar-wrapper">
               <div class="face-bar" style="width: 45%;"></div>
@@ -651,7 +573,7 @@ This map shows where some of the most iconic rappers in America come from.
 
             <div class="face-streaming">
               <div class="rank-number">3</div>
-              <img src="public/img/megan_thee_stallion.png" alt="Megan Thee Stallion">
+              <img src="img/megan_thee_stallion.png" alt="Megan Thee Stallion">
               <div class="face-name">MEGAN THEE STALLION</div>
               <div class="face-bar-wrapper">
                 <div class="face-bar" style="width: 47%;"></div>
@@ -662,7 +584,7 @@ This map shows where some of the most iconic rappers in America come from.
 
             <div class="face-streaming">
               <div class="rank-number">4</div>
-              <img src="public/img/Doja_cat.png" alt="Doja Cat">
+              <img src="img/Doja_cat.png" alt="Doja Cat">
               <div class="face-name">DOJA CAT</div>
               <div class="face-bar-wrapper">
                 <div class="face-bar" style="width: 100%;"></div>
@@ -672,7 +594,7 @@ This map shows where some of the most iconic rappers in America come from.
 
               <div class="face-streaming">
                 <div class="rank-number">5</div>
-                <img src="public/img/ice_spice.png" alt="Ice Spice">
+                <img src="img/ice_spice.png" alt="Ice Spice">
                 <div class="face-name">Ice Spice</div>
                 <div class="face-bar-wrapper">
                   <div class="face-bar" style="width: 21%;"></div>
@@ -700,12 +622,12 @@ This map shows where some of the most iconic rappers in America come from.
   <section class="section-compare">
     <div class="compare-left">
       <div class="bar-container">
-        <img src="public/img/kendrick-face-2.png" alt="Kendrick" class="compare-face face-kendrick">
+        <img src="img/kendrick-face-2.png" alt="Kendrick" class="compare-face face-kendrick">
         <div class="bar-value">110,8M</div>
         <div class="bar bar-male"></div>
       </div>
       <div class="bar-container">
-        <img src="public/img/nicki-face.png" alt="Nicki" class="compare-face face-nicki">
+        <img src="img/nicki-face.png" alt="Nicki" class="compare-face face-nicki">
         <div class="bar-value">45,1M</div>
         <div class="bar bar-female"></div>
       </div>
@@ -713,11 +635,11 @@ This map shows where some of the most iconic rappers in America come from.
   
     <div class="compare-right">
       <h2 class="compare-title">To compare</h2>
-      <img src="public/img/trait-craie.png" alt="Underline" class="compare-underline">
+      <img src="img/trait-craie.png" alt="Underline" class="compare-underline">
   
       <div class="compare-subtitle">
         <h3>monthly<br>listeners</h3>
-        <img src="public/img/spotify-logo.png" alt="Spotify" class="spotify-logo">
+        <img src="img/spotify-logo.png" alt="Spotify" class="spotify-logo">
       </div>
   
       <p class="compare-text">
@@ -736,25 +658,25 @@ Historically, hip-hop has been shaped by male narratives and often reinforced ge
 
 
   <section class="section-vs-battle">
-    <img src="public/img/boom1.png" alt="Explosion gauche" class="vs-boom boom-left">
-    <img src="public/img/boom2.png" alt="Explosion droite" class="vs-boom boom-right">
-    <img src="public/img/torn-paper-2.png" alt="Papier déchiré" class="vs-paper">
+    <img src="img/boom1.png" alt="Explosion gauche" class="vs-boom boom-left">
+    <img src="img/boom2.png" alt="Explosion droite" class="vs-boom boom-right">
+    <img src="img/torn-paper-2.png" alt="Papier déchiré" class="vs-paper">
   
     <div class="vs-title-wrapper">
       <h2 class="vs-title">Previously<br>in the rap game...</h2>
-      <img src="public/img/cercle-craie.png" alt="Cercle autour du titre" class="vs-circle">
+      <img src="img/cercle-craie.png" alt="Cercle autour du titre" class="vs-circle">
     </div>
   
     <div class="vs-faces-wrapper">
       <div class="vs-rapper">
-        <img src="public/img/kendrick_face.png" alt="Kendrick" class="vs-face">
+        <img src="img/kendrick_face.png" alt="Kendrick" class="vs-face">
         <p class="vs-name">KENDRICK</p>
       </div>
   
       <div class="vs-text">VS.</div>
   
       <div class="vs-rapper">
-        <img src="public/img/drake_face.png" alt="Drake" class="vs-face">
+        <img src="img/drake_face.png" alt="Drake" class="vs-face">
         <p class="vs-name">DRAKE</p>
       </div>
     </div>
@@ -773,16 +695,16 @@ Historically, hip-hop has been shaped by male narratives and often reinforced ge
 
 
   <section class="section-not-like-us">
-    <img src="public/img/not_like_us.png" alt="background" class="bg-not-like-us">
+    <img src="img/not_like_us.png" alt="background" class="bg-not-like-us">
   
     <h2 class="not-like-us-title">Not Like Us</h2>
   
     <div class="not-like-us-content">
       <!-- Bloc de gauche : papier avec citation -->
       <div class="paper-quote-wrapper">
-        <img src="public/img/torn-paper-2.png" alt="torn paper" class="torn-paper" />
-        <img src="public/img/scotch1.png" alt="scotch gauche" class="scotch-left" />
-        <img src="public/img/scotch3.png" alt="scotch droite" class="scotch-right" />
+        <img src="img/torn-paper-2.png" alt="torn paper" class="torn-paper" />
+        <img src="img/scotch1.png" alt="scotch gauche" class="scotch-left" />
+        <img src="img/scotch3.png" alt="scotch droite" class="scotch-right" />
   
         <div class="paper-quote">
           <p class="lyrics">“Tryna stick a chord and it’s probably A minor.”</p>
@@ -803,7 +725,7 @@ Historically, hip-hop has been shaped by male narratives and often reinforced ge
   </section>
 
   <section class="section-grammys">
-    <img src="public/img/not_like_us.png" alt="Background" class="bg-grammys">
+    <img src="img/not_like_us.png" alt="Background" class="bg-grammys">
   
     <div class="grammys-content">
       <!-- Texte à gauche -->
@@ -818,13 +740,13 @@ Beyond the studio, Kendrick brought Not Like Us to life on stage with a show-sto
   
       <!-- Image Kendrick + Grammys -->
       <div class="grammys-visual">
-        <img src="public/img/kendrick_lamar-2.png" alt="Kendrick Lamar" class="kendrick-img">
+        <img src="img/kendrick_lamar-2.png" alt="Kendrick Lamar" class="kendrick-img">
         <div class="grammy-icons">
-          <img src="public/img/grammy.png" alt="Grammy" class="grammy-icon">
-          <img src="public/img/grammy.png" alt="Grammy" class="grammy-icon">
-          <img src="public/img/grammy.png" alt="Grammy" class="grammy-icon">
-          <img src="public/img/grammy.png" alt="Grammy" class="grammy-icon">
-          <img src="public/img/grammy.png" alt="Grammy" class="grammy-icon">
+          <img src="img/grammy.png" alt="Grammy" class="grammy-icon">
+          <img src="img/grammy.png" alt="Grammy" class="grammy-icon">
+          <img src="img/grammy.png" alt="Grammy" class="grammy-icon">
+          <img src="img/grammy.png" alt="Grammy" class="grammy-icon">
+          <img src="img/grammy.png" alt="Grammy" class="grammy-icon">
         </div>
       </div>
     </div>
@@ -837,8 +759,8 @@ Beyond the studio, Kendrick brought Not Like Us to life on stage with a show-sto
       <h2 class="kanye-title">Kanye West<br><span>The controversy</span></h2>
   
       <div class="kanye-visual">
-        <img src="public/img/cercle-craie-2.png" alt="Cercle" class="kanye-circle" />
-        <img src="public/img/kanye-controversy.png" alt="Kanye" class="kanye-face" />
+        <img src="img/cercle-craie-2.png" alt="Cercle" class="kanye-circle" />
+        <img src="img/kanye-controversy.png" alt="Kanye" class="kanye-face" />
         <div class="question-mark q1">?</div>
         <div class="question-mark q2">?</div>
         <div class="question-mark q3">?</div>
@@ -849,9 +771,9 @@ Beyond the studio, Kendrick brought Not Like Us to life on stage with a show-sto
 
   <section class="section-kanye-poster">
     <div class="kanye-poster-wrapper">
-      <img src="public/img/torn-paper1.png" alt="Papier" class="paper-kanye" />
-      <img src="public/img/scotch3.png" alt="Scotch gauche" class="scotch-kanye-left" />
-      <img src="public/img/scotch2.png" alt="Scotch droite" class="scotch-kanye-right" />
+      <img src="img/torn-paper1.png" alt="Papier" class="paper-kanye" />
+      <img src="img/scotch3.png" alt="Scotch gauche" class="scotch-kanye-left" />
+      <img src="img/scotch2.png" alt="Scotch droite" class="scotch-kanye-right" />
   
       <div class="text-on-paper">
         <p>
@@ -861,16 +783,16 @@ Beyond the studio, Kendrick brought Not Like Us to life on stage with a show-sto
         </p>
       </div>
   
-      <img src="public/img/kanye-poster.png" alt="Kanye Poster" class="kanye-photo" />
+      <img src="img/kanye-poster.png" alt="Kanye Poster" class="kanye-photo" />
     </div>
   </section>
 
   
   <section class="section-kanye-quote">
     <div class="kanye-quote-wrapper">
-      <img src="public/img/torn-paper1.png" alt="Papier déchiré" class="paper-kanye-quote" />
-      <img src="public/img/scotch2.png" alt="Scotch gauche" class="scotch-kanye-quote-left" />
-      <img src="public/img/scotch2.png" alt="Scotch droite" class="scotch-kanye-quote-right" />
+      <img src="img/torn-paper1.png" alt="Papier déchiré" class="paper-kanye-quote" />
+      <img src="img/scotch2.png" alt="Scotch gauche" class="scotch-kanye-quote-left" />
+      <img src="img/scotch2.png" alt="Scotch droite" class="scotch-kanye-quote-right" />
   
       <div class="kanye-quote-text">
         <p class="quote">“My presence is a present, kiss my ass.”</p>
@@ -911,7 +833,7 @@ Beyond the studio, Kendrick brought Not Like Us to life on stage with a show-sto
     
       <div class="final-message-wrapper">
         <p id="final-message" class="final-message"></p>
-        <img src="public/img/cercle-craie.png" class="message-circle" />  
+        <img src="img/cercle-craie.png" class="message-circle" />  
       </div>
     
       <button id="play-again" class="hidden">Play again</button>
