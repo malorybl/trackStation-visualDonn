@@ -161,6 +161,30 @@ html, body {
   z-index: 3;
 }
 
+.footer-github {
+  text-align: center;
+  margin: 2rem 0;
+  font-family: "obviously-wide", sans-serif;
+}
+
+.footer-github a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-github .github-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.footer-github a:hover {
+  opacity: 0.8;
+}
+
 
 
 

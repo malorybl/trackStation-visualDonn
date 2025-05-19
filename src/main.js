@@ -216,7 +216,7 @@ gsap.fromTo(".section-billboard",
 
 // 2) Faces slide from left
 gsap.fromTo(".billboard-faces",
-  { x: "-100vw" },
+  { x: "-150vw" },
   {
     x: "3vw",
     ease: "power1.inOut",
