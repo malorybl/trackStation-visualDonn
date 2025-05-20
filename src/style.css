@@ -161,10 +161,18 @@ html, body {
   z-index: 3;
 }
 
+
+
 .footer-github {
   text-align: center;
   margin: 2rem 0;
   font-family: "obviously-wide", sans-serif;
+  color: #ccc;
+}
+
+.footer-github .footer-text {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-github a {

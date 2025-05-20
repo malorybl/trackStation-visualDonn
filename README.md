@@ -74,6 +74,37 @@ Ces données sont utilisées par différentes entités :
 - **Mention des candidats à la présidentielle 2016 (USA) dans des musiques de rap :** https://projects.fivethirtyeight.com/clinton-trump-hip-hop-lyrics/
 - **Les marques les plus mentionnées dans les albums de JAY-Z :** https://www.vanityfair.com/hollywood/2013/10/jay-z-brands-song-chart?curator=MediaREDEF&epik=dj0yJnU9OGFud3hUSmtSS2ZSVXJJQmRiN3pOX20tdi01cnFPc2EmcD0wJm49U2tLNlZJQVRpaVJGM1k5d2xSYWlmdyZ0PUFBQUFBR2ZKdkN3
 
+
+## 📥 Pour lancer ce projet sur votre machine
+
+Suivez cette marche à suivre
+
+### Prerequis
+
+- **Node.js** v14+  
+- **npm** (bundled with Node)
+
+### Installation
+
+1. **Cloner le repo**  
+   ```bash
+   git clone https://github.com/malorybl/trackStation-visualDonn.git
+   cd trackStation-visualDonn
+
+
+2. **Installer les dépendances**  
+   ```bash
+   npm install
+
+
+3. **Faire runner en local**  
+   ```bash
+   npm run dev 
+
+Ouvrez votre browser sur http://localhost:8000 (ou avec URL inscrite dans votre terminal).
+
+
+
 ## 🚀 Conclusion
 
 Nous espérons que ce site vous permettra de plonger au cœur de la culture hip-hop et d’en apprendre davantage sur son histoire, ses artistes et son influence à travers le monde. Que vous soyez un passionné de longue date ou simplement curieux de découvrir cet univers, notre objectif est de vous offrir un espace informatif et inspirant.
