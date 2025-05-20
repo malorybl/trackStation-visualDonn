@@ -34,7 +34,7 @@ Les attributs clés incluent :
   - Top 10 des rappeuses les plus influentes
 - **D'où viennent les rappeurs ? (Wikidata Query)** : [Medium](https://medium.com/@mark.reuter/a-hip-hop-world-map-7472a66da6a3)
   - carte représentant l’origine des rappeurs
-- **Images** : https://images.google.com/
+- **Images** : https://complex.com/ https://billboard.com/ https://wikipedia.org/
   - Photos / illustrations
 - **Paroles** : [genius](https://genius.com/)
   - Paroles de musiques populaires
