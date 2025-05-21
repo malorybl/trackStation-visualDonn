@@ -34,8 +34,68 @@ Les attributs clés incluent :
   - Top 10 des rappeuses les plus influentes
 - **D'où viennent les rappeurs ? (Wikidata Query)** : [Medium](https://medium.com/@mark.reuter/a-hip-hop-world-map-7472a66da6a3)
   - carte représentant l’origine des rappeurs
-- **Images** : https://complex.com/ https://billboard.com/ https://wikipedia.org/
-  - Photos / illustrations
+- **Liens des photos / sources** 
+tupac 1 : [Staker](https://stacker.com/stories/celebrities/life-and-death-tupac-shakur)
+
+snoop 1 : [Black news](https://blacknews.fr/tag/snoop-doggy-dogg/)
+
+eminem : [Rolling Stone](https://www.rollingstone.com/music/music-lists/20-insanely-great-eminem-tracks-only-hardcore-fans-know-166190/)
+
+jayz: [X](https://x.com/drboycewatkins1/status/1135682203348811776)
+
+50 cent : [Instagram](https://www.instagram.com/p/DFwFyizMzjE/)
+
+nicki 1 : [Tumblr](https://www.tumblr.com/blackkudos/168287422892/nicki-minaj)
+
+kendrick lamar : [Reddit](https://www.reddit.com/r/travisscott/comments/155k5h9/tried_to_paint_travis_scott/?tl=fr)
+
+kanye 1 : [Pinterest](https://fr.pinterest.com/pin/632685447681740502/)
+
+kanye 2 : [Reddit](https://www.reddit.com/r/Kanye/comments/1dxjn2r/did_kanye_actually_ever_meet_chris_chan/?tl=fr)
+
+GAME:
+
+21 savage : [GSBookings](https://gsbookings.wordpress.com/2021/11/25/center-stage-21-savage-and-other-popular-rappers-recruited-to-new-riff-app-allowing-fans-to-better-engage-with-their-favorite-artists%EF%BF%BC/)
+
+asap rocky : [X](https://x.com/BuzzingPop/status/1892022165333049513)
+
+cardi b : [The New York Times](https://www.nytimes.com/2024/04/05/style/cardi-b-raymonte-tiktok-ghetto.html)
+
+doja cat : [Sony Entertainment France](https://www.sonymusic.fr/artist/doja-cat-2/)
+
+don toliver : [Billets](https://www.billets.ca/don-toliver-billets)
+
+drake : [VICE](https://www.vice.com/fr/article/une-analyse-technique-du-passionfruit-de-drake/)
+
+eminem : [Medium](https://charithdesilva.com/startup-lessons-from-eminem-a464f859827d)
+
+ice cube :[Instagram](https://www.instagram.com/p/DIseNOfsboX/)
+
+ice spice :[Threads](https://www.threads.com/@itgirl/post/C_n2HEaJ99v/ice-spice-stuns-in-leopard-print-at-the-2024-2024-bmi-rbhip-hop-awards?hl=ar)
+
+j cole :[Reddit](https://www.reddit.com/r/Jcole/comments/1jkn3r2/best_jcole_song/?tl=fr)
+
+kanye west :[Reddit](https://www.reddit.com/r/Kanye/comments/1jy92yt/how_kanye_saved_my_life/?tl=fr)
+
+kendrick lamar :[Vulture](https://www.vulture.com/article/best-kendrick-lamar-songs-ranked-tracks.html)
+
+kid cudi :[The Hollywood Reporter](https://www.hollywoodreporter.com/news/music-news/kid-cudi-launches-interactive-live-music-app-4084245/)
+
+lil wayne :[Reddit](https://www.reddit.com/r/lilwayne/comments/1jr0hcy/lil_wayne_has_been_a_living_legend_since_the/)
+
+nas : [Reddit](https://www.reddit.com/r/90sHipHop/comments/1jp4u5y/lil_wayne_or_nas/?tl=fr)
+
+nicki minaj :[Pinterest](https://in.pinterest.com/pin/1013309984896055997/)
+
+offset : [People](https://people.com/music/offset-tells-young-people-to-vote/)
+
+playboi carti : [Generation](https://generations.fr/news/musique/75816/playboi-carti-recoit-des-messages-de-dieu-lui-disant-qu-il-est-le-meilleur)
+
+snoop dogg : [IMDB](https://www.imdb.com/fr/news/ni63828637/)
+
+travis scott : [Reddit](https://www.reddit.com/r/travisscott/comments/155k5h9/tried_to_paint_travis_scott/?tl=fr)
+
+
 - **Paroles** : [genius](https://genius.com/)
   - Paroles de musiques populaires
 - **Actualité dans le monde du rap** : [gqmagazine](https://www.gqmagazine.fr/article/kendrick-lamar-drake-clash)
