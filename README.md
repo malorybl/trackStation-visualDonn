@@ -34,7 +34,10 @@ Les attributs clés incluent :
   - Top 10 des rappeuses les plus influentes
 - **D'où viennent les rappeurs ? (Wikidata Query)** : [Medium](https://medium.com/@mark.reuter/a-hip-hop-world-map-7472a66da6a3)
   - carte représentant l’origine des rappeurs
-- **Liens des photos / sources** 
+
+
+## 🔍 Sources des images
+
 tupac 1 : [Staker](https://stacker.com/stories/celebrities/life-and-death-tupac-shakur)
 
 snoop 1 : [Black news](https://blacknews.fr/tag/snoop-doggy-dogg/)
